@@ -26,11 +26,13 @@ Scheme
 		
 		"Health"			"227 227 227 255"
 		"HealthBuff"		"125 225 30 255"
-		"HealthLow"			"255 0 0 255"
+		"HealthLow1"		"255 30 30 255"
+		"HealthLow2"		"200 30 30 255"
 		
 		"AmmoClip"			"227 227 227 255"
 		"AmmoReserve"		"227 227 227 255"
-		"AmmoLow"           "142 142 142 255"
+		"AmmoLow1"			"255 30 30 255"
+		"AmmoLow2"			"200 30 30 255"
 		
 		"DamageNumbers"     "227 227 227 255"
 		"HealthNumbers"		"22 182 71 255"
