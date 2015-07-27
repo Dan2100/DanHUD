@@ -1,5 +1,37 @@
 "Resource/HudLayout.res"
 {
+
+	"TransparentViewmodelMask"
+	{
+	//alpha doesn't work for this, you need to change the texture's alpha
+	"ControlName"	"ImagePanel"
+	"fieldName"	"TransparentViewmodelMask"
+	"xpos"	"0"
+	"ypos"	"0"
+	"zpos"	"-100"
+	"wide"	"f0"
+	"tall"	"480"
+	"visible"	"1"
+	"enabled"	"1"
+	"image"	"replay/thumbnails/REFRACTnormal_transparent"
+	"scaleImage"	"1"
+	}
+	"Crosshair"
+	{
+        "controlname"	"CExLabel"
+		"fieldname"	"Crosshair"
+        "textAlignment"	"center"
+		"xpos"		"0"
+		"ypos"		"0"
+		"zpos"		"-2"
+		"wide"		"f0"
+		"tall"		"480"
+        "enabled"	"1"
+        "visible"	"1"
+		"labeltext"	"t"
+        "font"		"CrosshairOL"
+        "fgcolor"	"Crosshair"
+	}
 	HudPlayerStatus
 	{
 		"fieldName" "HudPlayerStatus"
@@ -72,14 +104,10 @@
 		"fieldName"		"HudMedicCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r138"	[$WIN32]
-		"xpos_minmode"	"r100"	[$WIN32]
-		"ypos"			"r69"	[$WIN32]
-		"ypos_minmode"	"r34"	[$WIN32]
-		"xpos"			"r174"	[$X360]
-		"ypos"			"r90"	[$X360]
-		"wide"			"200"
-		"tall"			"100"
+		"xpos"			"c-100"
+		"ypos"			"c52"
+		"wide"			"332"
+		"tall"			"134"
 	}
 	
 	HudDemomanCharge
@@ -87,16 +115,11 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r80"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos"			"r21"	[$WIN32]
-		"ypos_minmode"	"r40"	[$WIN32]
-		"xpos"			"r112"	[$X360]
-		"ypos"			"r45"	[$X360]
+		"xpos"			"c-100"
+		"ypos"			"c108"
 		"zpos"			"1"			// draw in front of ammo
-		"wide"			"60"
-		"wide_minmode"	"50"
-		"tall"			"8"
+		"wide"			"200"
+		"tall"			"6"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}	
@@ -106,15 +129,10 @@
 		"fieldName"		"HudBowCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r80"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos"			"r21"	[$WIN32]
-		"ypos_minmode"	"r40"	[$WIN32]
-		"xpos"			"r112"	[$X360]
-		"ypos"			"r45"	[$X360]
+		"xpos"			"999999"
+		"ypos"			"999999"
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"60"
-		"wide_minmode"	"50"
 		"tall"			"8"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
@@ -210,10 +228,8 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"76"
-		"xpos_minmode"			"61"
-		"ypos"					"r152"
-		"ypos_minmode"			"r134"
+		"xpos"					"c-158"
+		"ypos"					"c72"
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"
@@ -253,36 +269,23 @@
 		"fieldName" 	"CMainTargetID"
 		"visible" 	"0"
 		"enabled" 	"1"
-		"xpos"		"c-126"
-		"ypos"		"285"
-		"wide"	 	"252"
-		"tall"	 	"35"
-		"tall_minmode"	 	"28"
+		"xpos"		"c-170"
+		"ypos"		"270"
+		"wide"	 	"f0"
+		"tall"	 	"50"
 		"priority"	"40"
-		"priority_lodef"	"5"
-
-		if_vr
-		{
-			"ypos"		"370"
-			"x_offset"	"20"
-		}
 	}
 	
 	CSpectatorTargetID
 	{
 		"fieldName" 	"CSpectatorTargetID"
-		"visible" 	"0"
+		"visible" 	"1"
 		"enabled" 	"1"
-		"xpos"		"c-126"
-		"ypos"		"250"
-		"wide"	 	"252"
-		"tall"	 	"35"
-		"tall_minmode"	 	"28"
+		"xpos"		"c-120"
+		"ypos"		"300"
+		"wide"	 	"f0"
+		"tall"	 	"50" 
 		"priority"	"40"
-		"priority_lodef" "35"
-		
-		"x_offset" "20"
-		"y_offset" "20"
 	}
 	
 	CSecondaryTargetID
@@ -290,19 +293,11 @@
 		"fieldName" 	"CSecondaryTargetID"
 		"visible" 	"0"
 		"enabled" 	"1"
-		"xpos"		"c-126"
-		"ypos"		"335"
-		"wide"	 	"252"
-		"tall"	 	"35"
-		"tall_minmode"	 	"28"
+		"xpos"		"c-170"
+		"ypos"		"300"
+		"wide"	 	"f0"
+		"tall"	 	"50"
 		"priority"	"35"
-
-		if_vr
-		{
-			"ypos"		"330"
-			"x_offset"	"20"
-		}
-
 	}
 	
 	BuildingStatus_Spy
@@ -1030,14 +1025,10 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r162"	[$WIN32]
-		"xpos_minmode"	"r110"	[$WIN32]
-		"ypos"			"r52"	[$WIN32]
-		"ypos_minmode"	"r30"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r74"	[$X360]
-		"wide"			"100"
-		"tall"			"50"
+		"xpos"			"c-100"
+		"ypos"			"c83"
+		"wide"			"200"
+		"tall"			"30"
 	}	
 
 	HudTeamGoal

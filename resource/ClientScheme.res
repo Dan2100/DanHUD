@@ -21,7 +21,7 @@ Scheme
 	Colors
 	{
 		//Custom Colours
-		"Text"				"255 255 255 255"
+		"Text"				"227 227 227 255"
 		"Shadow"			"0 0 0 255"
 		
 		"Health"			"227 227 227 255"
@@ -36,6 +36,18 @@ Scheme
 		
 		"DamageNumbers"     "227 227 227 255"
 		"HealthNumbers"		"22 182 71 255"
+		
+		"Crosshair"         "0 255 0 255"
+		"CrosshairDamage"   "0 191 255 255"
+		
+		"MeterForeground"	"227 227 227 255"
+		"MeterBackground"   "36 36 36 188"
+		"MeterLabel"		"125 125 125 255"
+		
+		"MedicCharge1"		"125 225 30 255"
+		"MedicCharge2"		"125 225 30 255"
+		
+		"NameBG"        	"36 36 36 188"
 	
 		// base colors
 		"Orange"			"178 82 22 255"
@@ -2619,6 +2631,26 @@ Scheme
 		}
 		
 		//Custom Fonts
+		"NovecentoMedium9"            
+		{
+			"1"
+			{
+				"name"			"NovecentoMedium"
+				"tall"		"9"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"Futura7"
+		{
+			"1"
+			{
+				"name"		"FuturaStd-Medium"
+				"tall"		"7"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"Futura9"
 		{
 			"1"
@@ -2629,12 +2661,33 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"DataLabelBig"              //AmmoReserve, Uber% & Counters
+		{
+			"1"
+			{
+				"name"			"NovecentoMedium"
+				"tall"		"20"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
 		"BoldNumbers54"
 		{
 			"1"
 			{
 				"name"			"BoldNumbers"
 				"tall"			"54"
+				"additive"		"0"
+				"antialias" 	"1"
+                "dropshadow"	"0"
+			}
+		}
+		"BoldNumbers24"
+		{
+			"1"
+			{
+				"name"			"BoldNumbers"
+				"tall"			"24"
 				"additive"		"0"
 				"antialias" 	"1"
                 "dropshadow"	"0"
@@ -2660,6 +2713,48 @@ Scheme
 				"additive"		"0"
 				"antialias" 	"1"
 				"dropshadow"	"0"
+			}
+		}
+		"CrosshairOL"
+        {
+			"1"
+			{
+				"name"		"crosshair"
+				"tall"		"20"
+				"additive"	"0"
+				"antialias" 	"1"
+				"weight"	"0"
+				"outline"	"1"
+			}
+		}
+		"Blocks64"
+		{
+			"1"
+			{
+				"name"		"Blocks"
+				"tall"		"64"
+				"weight"	"1000"
+				"antialias"	"1"
+			}
+		}
+		"Medium13"
+		{
+			"1"
+			{
+				"name"		"AvenirLTStd-Medium"
+				"tall"		"13"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+		"Medium14"
+		{
+			"1"
+			{
+				"name"		"AvenirLTStd-Medium"
+				"tall"		"14"
+				"additive"		"0"
+				"antialias"	"1"
 			}
 		}
 	}
@@ -5197,6 +5292,26 @@ Scheme
 		{
 			"font" "resource/fonts/MediumNumbers.ttf"
 			"name" "MediumNumbers"
+		}
+		"10" 
+		{
+			"font" "resource/fonts/NovecentoMedium.ttf"
+			"name" "Novecento Medium"  
+		}
+		"11" 
+		{
+			"font" "resource/fonts/crosshair.ttf"
+			"name" "crosshair"  
+		}
+		"12"
+		{		
+			"font" "resource/fonts/Blocks.ttf"
+			"name" "Blocks"
+		}
+		"13" 
+		{
+			"font" "resource/fonts/AvenirLTStd-Medium.otf"
+			"name" "AvenirLTStd-Medium"
 		}
 	}
 }
