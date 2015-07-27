@@ -48,6 +48,21 @@ Scheme
 		"MedicCharge2"		"125 225 30 255"
 		
 		"NameBG"        	"36 36 36 188"
+		"ScoreboardBG"		"36 36 36 225"
+		"ScoreboardBG2"		"30 30 30 175"	
+		
+		//TFTV
+		"White_Custom"				"255 255 255 255"
+		"Black_Custom"				"0 0 0 255"
+		"RedTeam_Custom"			"131 45 48 255"
+		"BlueTeam_Custom"			"66 96 120 255"	
+		"OverhealGreen_Custom"		"91 240 131 255"
+		//"OverhealGreen_Custom2"		"91 157 109 255"
+		//"OverhealGreen_Custom3"		"144 255 131 255"	
+		"LowHealthRed_Custom"		"121 8 15 255"
+		"LowHealthRed_Custom2"		"113 42 50 255"
+		"LowHealthYellow_Custom"	"255 200 0 255"
+		"Grey_Custom"				"123 122 122 255"
 	
 		// base colors
 		"Orange"			"178 82 22 255"
@@ -484,10 +499,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"FuturaStd-Medium"
-				"tall"		"11"
-				"additive"	"0"
-				"antialias" "1"
+				"name"		"AvenirLTStd-Medium"
+				"tall"		"12"
+				"additive"		"0"
+				"antialias"	"1"
 			}
 			"2"
 			{
@@ -2921,6 +2936,36 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		
+		//TFTV
+		RobotoCondensedBold12
+		{
+			"1"
+			{
+				"name"		"Roboto Condensed Bold"
+				"tall"		"12"
+				"antialias"	"1"
+			}
+		}
+		RobotoThin42
+		{
+			"1"
+			{
+				"name"		"Roboto Thin"
+				"tall"		"42"
+				"antialias"	"1"
+			}
+		}
+		"Shapes"
+		{
+			"1"
+			{
+				"name"		"Blocks"
+				"tall"		"64"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 	}
 
 	//
@@ -3262,8 +3307,8 @@ Scheme
 			"image"					"../hud/color_panel_brown"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		TFFatLineBorderRedBGOpaque
 		{
@@ -3295,8 +3340,8 @@ Scheme
 			"image"					"../hud/color_panel_red"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		TFFatLineBorderBlueBG
 		{
@@ -3306,8 +3351,8 @@ Scheme
 			"image"					"../hud/color_panel_blu"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 
 		ToolTipBorder
@@ -5459,7 +5504,7 @@ Scheme
 		}
 		"10" 
 		{
-			"font" "resource/fonts/NovecentoMedium.ttf"
+			"font" "resource/fonts/Novecento Medium.otf"
 			"name" "Novecento Medium"  
 		}
 		"11" 
@@ -5481,6 +5526,16 @@ Scheme
 		{
 			"font" "resource/fonts/HeavyCaps.ttf"
 			"name" "HeavyCaps"  
+		}
+		"15"
+		{
+			"font"	"resource/fonts/Roboto-Thin.ttf"
+			"name"	"Roboto Thin"
+		}
+		"16"
+		{
+			"font"	"resource/fonts/RobotoCondensed-Bold.ttf"
+			"name"	"Roboto Condensed Bold"
 		}
 	}
 }

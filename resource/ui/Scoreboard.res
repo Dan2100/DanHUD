@@ -88,7 +88,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"NameBG"
+		"fillcolor"		"ScoreboardBG"
 	}
 	"BlueTeamLabel"
 	{
@@ -430,7 +430,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"NameBG"
+		"fillcolor"		"ScoreboardBG2"
 	}
 	"ClassImage"
 	{

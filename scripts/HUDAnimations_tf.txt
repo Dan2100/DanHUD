@@ -209,6 +209,9 @@ event HudHealthBonusPulse
 	
 	Animate PlayerStatusHealthValue			FgColor		"HealthBuff"		Accel 0.0 0.0
 	Animate PlayerStatusHealthValueSpec		FgColor		"HealthBuff"		Accel 0.0 0.0
+	
+	Animate GreenFilter						Alpha		"255"	Linear	0.0 0.2
+	Animate GreenFilter						Alpha		"0"		Linear	0.2 0.4
 
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
@@ -223,6 +226,8 @@ event HudHealthBonusPulseStop
 {	
 	Animate PlayerStatusHealthValue			FgColor		"Health"		Accel 0.0 0.0
 	Animate PlayerStatusHealthValueSpec		FgColor		"Health"		Accel 0.0 0.0
+	
+	Animate GreenFilter					Alpha		"0"				"Accel"	0.0 0.25
 
 	StopEvent HudHealthBonusPulse 0.0
 	StopEvent HudHealthBonusPulseLoop 0.0
@@ -239,6 +244,8 @@ event HudHealthDyingPulse
 	Animate PlayerStatusHealthValue			FgColor		"HealthLow1"	Linear 0.0 0.075
 	Animate PlayerStatusHealthValue			FgColor		"HealthLow2"	Linear 0.125 0.075
 	
+	Animate PlayerStatusHealthValueSpec			FgColor		"255 200 0 255"	Linear 0.0 0.0
+	
 	RunEvent HudHealthDyingPulseLoop	0.25
 }
 
@@ -251,6 +258,7 @@ event HudHealthDyingPulseLoop
 event HudHealthDyingPulseStop
 {
 	Animate PlayerStatusHealthValue			FgColor		"Health"	Accel 0.0 0.0
+	Animate PlayerStatusHealthValueSpec			FgColor		"White_Custom"	Linear 0.0 0.0	
 	
 	StopEvent HudHealthDyingPulse 0.0
 	StopEvent HudHealthDyingPulseLoop 0.0
