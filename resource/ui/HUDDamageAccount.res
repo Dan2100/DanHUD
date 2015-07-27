@@ -9,8 +9,8 @@
 		"PositiveColor"			"HealthNumbers"
 		"NegativeColor"			"DamageNumbers"
 		"delta_lifetime"		"3.0"
-		"delta_item_font"		"DataLabelBig"
-		"delta_item_font_big"	"DataLabelBig"
+		"delta_item_font"		"NovecentoMedium20"
+		"delta_item_font_big"	"NovecentoMedium20"
 	}
 	"DamageAccountValue"
 	{
@@ -27,7 +27,7 @@
 		"delta_lifetime"	"10.0"
 		"textAlignment"	"west"
 		"fgcolor"		"DamageNumbers"
-		"font"			"DataLabelBig"
+		"font"			"NovecentoMedium20"
 	}
 	"DamageAccountValueShadow"
 	{
@@ -44,6 +44,6 @@
 		"delta_lifetime"	"10.0"
 		"textAlignment"	 	"west"
 		"fgcolor"	 		"Shadow"
-		"font"	 			"DataLabelBig"			
+		"font"	 			"NovecentoMedium20"			
 	}
 }

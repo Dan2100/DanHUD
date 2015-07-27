@@ -9,6 +9,6 @@
 		"PositiveColor"			"HealthNumbers"
 		"NegativeColor"			"DamageNumbers"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"DataLabelBig"
+		"delta_item_font"		"NovecentoMedium20"
 	}
 }

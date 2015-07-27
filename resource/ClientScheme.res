@@ -2631,6 +2631,96 @@ Scheme
 		}
 		
 		//Custom Fonts
+		"Medium7"
+		{
+			"1"
+			{
+				"name"		"AvenirLTStd-Medium"
+				"tall"		"7"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+		"Medium9"
+		{
+			"1"
+			{
+				"name"		"AvenirLTStd-Medium"
+				"tall"		"9"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+		"Medium10"
+		{
+			"1"
+			{
+				"name"		"AvenirLTStd-Medium"
+				"tall"		"10"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+		"Medium12"
+		{
+			"1"
+			{
+				"name"		"AvenirLTStd-Medium"
+				"tall"		"12"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+		"Medium13"
+		{
+			"1"
+			{
+				"name"		"AvenirLTStd-Medium"
+				"tall"		"13"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+		"Medium14"
+		{
+			"1"
+			{
+				"name"		"AvenirLTStd-Medium"
+				"tall"		"14"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+		"Medium16"
+		{
+			"1"
+			{
+				"name"		"AvenirLTStd-Medium"
+				"tall"		"16"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+		"Medium18"
+		{
+			"1"
+			{
+				"name"		"AvenirLTStd-Medium"
+				"tall"		"18"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+		"Medium20"
+		{
+			"1"
+			{
+				"name"		"AvenirLTStd-Medium"
+				"tall"		"20"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
 		"NovecentoMedium9"            
 		{
 			"1"
@@ -2641,27 +2731,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		"Futura7"
-		{
-			"1"
-			{
-				"name"		"FuturaStd-Medium"
-				"tall"		"7"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"Futura9"
-		{
-			"1"
-			{
-				"name"		"FuturaStd-Medium"
-				"tall"		"9"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"DataLabelBig"              //AmmoReserve, Uber% & Counters
+		"NovecentoMedium20"
 		{
 			"1"
 			{
@@ -2671,23 +2741,23 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		"BoldNumbers54"
-		{
-			"1"
-			{
-				"name"			"BoldNumbers"
-				"tall"			"54"
-				"additive"		"0"
-				"antialias" 	"1"
-                "dropshadow"	"0"
-			}
-		}
 		"BoldNumbers24"
 		{
 			"1"
 			{
 				"name"			"BoldNumbers"
 				"tall"			"24"
+				"additive"		"0"
+				"antialias" 	"1"
+                "dropshadow"	"0"
+			}
+		}
+		"BoldNumbers54"
+		{
+			"1"
+			{
+				"name"			"BoldNumbers"
+				"tall"			"54"
 				"additive"		"0"
 				"antialias" 	"1"
                 "dropshadow"	"0"
@@ -2734,26 +2804,6 @@ Scheme
 				"name"		"Blocks"
 				"tall"		"64"
 				"weight"	"1000"
-				"antialias"	"1"
-			}
-		}
-		"Medium13"
-		{
-			"1"
-			{
-				"name"		"AvenirLTStd-Medium"
-				"tall"		"13"
-				"additive"		"0"
-				"antialias"	"1"
-			}
-		}
-		"Medium14"
-		{
-			"1"
-			{
-				"name"		"AvenirLTStd-Medium"
-				"tall"		"14"
-				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
