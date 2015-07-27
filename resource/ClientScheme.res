@@ -484,11 +484,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"12"
-				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"480 599"
+				"name"		"FuturaStd-Medium"
+				"tall"		"11"
+				"additive"	"0"
+				"antialias" "1"
 			}
 			"2"
 			{
@@ -2721,6 +2720,16 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		"NovecentoMedium8"            
+		{
+			"1"
+			{
+				"name"			"NovecentoMedium"
+				"tall"		"9"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
 		"NovecentoMedium9"            
 		{
 			"1"
@@ -2731,12 +2740,42 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+		"NovecentoMedium10"            
+		{
+			"1"
+			{
+				"name"			"NovecentoMedium"
+				"tall"		"10"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
 		"NovecentoMedium20"
 		{
 			"1"
 			{
 				"name"			"NovecentoMedium"
 				"tall"		"20"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"NovecentoMedium24"
+		{
+			"1"
+			{
+				"name"			"NovecentoMedium"
+				"tall"		"24"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"NovecentoMedium54"
+		{
+			"1"
+			{
+				"name"			"NovecentoMedium"
+				"tall"		"54"
 				"additive"	"0"
 				"antialias" 	"1"
 			}
@@ -2763,6 +2802,48 @@ Scheme
                 "dropshadow"	"0"
 			}
 		}
+		"HeavyCaps18"
+		{
+			"1"
+			{
+				"name"		"HeavyCaps"
+				"tall"		"18"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"HeavyCaps32"
+		{
+			"1"
+			{
+				"name"		"HeavyCaps"
+				"tall"		"32"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"MediumNumbers10"
+		{
+			"1"
+			{
+				"name"			"MediumNumbers"
+				"tall"			"18"
+				"additive"		"0"
+				"antialias" 	"1"
+				"dropshadow"	"0"
+			}
+		}
+		"MediumNumbers18"
+		{
+			"1"
+			{
+				"name"			"MediumNumbers"
+				"tall"			"18"
+				"additive"		"0"
+				"antialias" 	"1"
+				"dropshadow"	"0"
+			}
+		}
 		"MediumNumbers20"
 		{
 			"1"
@@ -2780,6 +2861,39 @@ Scheme
 			{
 				"name"			"MediumNumbers"
 				"tall"			"26"
+				"additive"		"0"
+				"antialias" 	"1"
+				"dropshadow"	"0"
+			}
+		}
+		"MediumNumbers40"
+		{
+			"1"
+			{
+				"name"			"MediumNumbers"
+				"tall"			"40"
+				"additive"		"0"
+				"antialias" 	"1"
+				"dropshadow"	"0"
+			}
+		}
+		"MediumNumbers48"
+		{
+			"1"
+			{
+				"name"			"MediumNumbers"
+				"tall"			"48"
+				"additive"		"0"
+				"antialias" 	"1"
+				"dropshadow"	"0"
+			}
+		}
+		"MediumNumbers60"
+		{
+			"1"
+			{
+				"name"			"MediumNumbers"
+				"tall"			"60"
 				"additive"		"0"
 				"antialias" 	"1"
 				"dropshadow"	"0"
@@ -5362,6 +5476,11 @@ Scheme
 		{
 			"font" "resource/fonts/AvenirLTStd-Medium.otf"
 			"name" "AvenirLTStd-Medium"
+		}
+		"14" 
+		{
+			"font" "resource/fonts/HeavyCaps.ttf"
+			"name" "HeavyCaps"  
 		}
 	}
 }
