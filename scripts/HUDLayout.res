@@ -1028,7 +1028,7 @@
 		"xpos"			"c-100"
 		"ypos"			"c83"
 		"wide"			"200"
-		"tall"			"30"
+		"tall"			"60"
 	}	
 
 	HudTeamGoal

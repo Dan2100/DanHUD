@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BlackFilter"
-		"xpos"			"-34"
+		"xpos"			"-36"
 		"ypos"			"3"
 		"zpos"			"1"
 		"wide"			"90"
@@ -12,19 +12,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 155"
-	}
-	"BlackFilterTop"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BlackFilterTop"
-		"xpos"			"-34"
-		"ypos"			"3"
-		"zpos"			"2"
-		"wide"			"90"
-		"tall"			"10"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"0 0 0 0"
 	}
 //	"BlackFilterUnder"
 //	{
@@ -50,7 +37,7 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"91 157 109" //OverhealGreen_Custom transparent
+		"fillcolor"		"0 200 0 150" //OverhealGreen_Custom transparent
 		"alpha"			"0"
 	}
 	"PlayerStatusHealthImage"
@@ -77,7 +64,7 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 255"
+		"fillcolor"		"32 32 32 255"
 		"scaleImage"	"1"	
 	}	
 	"BuildingStatusHealthImageBG"
@@ -113,11 +100,11 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueSpec"
 		"labelText"		"%Health%"
-		"font"			"RobotoCondensedBold12"
-		"fgcolor"		"White_Custom"
+		"font"			"Medium10"
+		"fgcolor"		"White"
 		"xpos"			"-15"
 		"ypos"			"4"
-		"zpos"			"4"
+		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"18"
 		"visible"		"1"
