@@ -88,7 +88,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetNameLabel"
-		"font"			"Medium14"				//Medium12
+		"font"			"AvenirMedium14"				//Medium12
 		"xpos"			"53"
 		"ypos"			"19"	
 		"zpos"			"2"
@@ -109,7 +109,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetNameLabelShadow"
-		"font"			"Medium13"				//Medium12
+		"font"			"AvenirMedium13"				//Medium12
 		"xpos"			"53"
 		"ypos"			"-1"	
 		"zpos"			"-52"
@@ -130,7 +130,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetDataLabel"
-		"font"			"NovecentoMedium9"
+		"font"			"AvenirMedium9"
 		"xpos"			"52"
 		"ypos"			"32"		
 		"zpos"			"4"
@@ -260,7 +260,7 @@
 		{	
 			"ControlName"		"Label"
 			"fieldName"		"MoveableKeyLabel"
-			"font"			"NoveMedium10"
+			"font"			"AvenirMedium10"
             "fgcolor_override"		"White"
 			"xpos"			"2"
 			"ypos"			"19"

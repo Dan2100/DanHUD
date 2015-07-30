@@ -37,7 +37,7 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 200 0 150" //OverhealGreen_Custom transparent
+		"fillcolor"		"0 200 0 150"
 		"alpha"			"0"
 	}
 	"PlayerStatusHealthImage"
@@ -100,7 +100,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueSpec"
 		"labelText"		"%Health%"
-		"font"			"Medium10"
+		"font"			"AvenirMedium10"
 		"fgcolor"		"White"
 		"xpos"			"-15"
 		"ypos"			"4"

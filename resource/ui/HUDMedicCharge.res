@@ -100,7 +100,7 @@
 		"textAlignment" "center"
 		"dulltext"		"0"
 		"brighttext" 	"0"
-		"font" 			"Blocks64"
+		"font" 			"Blocks"
 		"fgcolor"		"0 0 0 255"
 	}
 	
@@ -122,7 +122,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Medium7"
+		"font"					"AvenirMedium7"
 		"fgcolor_override"		"MeterLabel"
 	}
 	

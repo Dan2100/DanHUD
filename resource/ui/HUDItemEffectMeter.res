@@ -51,7 +51,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Medium7"
+		"font"					"AvenirMedium7"
 		"fgcolor_override"		"MeterLabel"
 	}
 

@@ -33,7 +33,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
-				"font"			"Medium10"
+				"font"			"AvenirMedium10"
 				"fgcolor"		"Text"
 				"xpos"			"43"
 				"ypos"			"2"
@@ -181,7 +181,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"font"			"Medium10"
+				"font"			"AvenirMedium10"
 				"fgcolor"		"Text"
 				"xpos"			"19"
 				"ypos"			"-1"
@@ -205,7 +205,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"Blocks"
-				"font"			"Shapes"
+				"font"			"Blocks"
 				"fgcolor"		"Black"
 				"xpos"			"19"
 				"ypos"			"0"
@@ -229,7 +229,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamount"
-				"font"			"Medium12"
+				"font"			"AvenirMedium12"
 				"xpos"			"100"
 				"ypos"			"2"
 				"zpos"			"6"
@@ -316,7 +316,7 @@
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"font"			"Medium12"
+		"font"			"AvenirMedium12"
 		"fgcolor"		"Text"
 		
 		if_mvm
@@ -341,7 +341,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_PVE_Buyback"
 		"textAlignment"	"center"
-		"font"			"Medium10"
+		"font"			"AvenirMedium10"
 		"wrap"			"1"
 		"centerwrap"	"1"
 	

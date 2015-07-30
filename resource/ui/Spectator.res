@@ -78,7 +78,7 @@
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"font"			"Medium16"
+		"font"			"AvenirMedium16"
 	}
 	"BuyBackLabel"
 	{

@@ -29,7 +29,7 @@
         "enabled"	"1"
         "visible"	"1"
 		"labeltext"	"t"
-        "font"		"CrosshairOL"
+        "font"		"Crosshair"
         "fgcolor"	"Crosshair"
 	}
 	HudPlayerStatus

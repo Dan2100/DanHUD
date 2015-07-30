@@ -164,7 +164,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamPlayerCount"
-		"font"			"Medium10"
+		"font"			"AvenirMedium10"
 		"fgcolor"		"Text"
 		"labelText"		"%blueteamplayercount%"
 		"textAlignment"		"north-west"
@@ -256,7 +256,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamPlayerCount"
-		"font"			"Medium10"
+		"font"			"AvenirMedium10"
 		"fgcolor"		"Text"
 		"labelText"		"%redteamplayercount%"
 		"textAlignment"		"north-east"
@@ -278,7 +278,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ServerLabel"
-		"font"			"Medium12"
+		"font"			"AvenirMedium12"
 		"fgcolor"		"Text"
 		"labelText"		"%server%"
 		"textAlignment"		"west"
@@ -295,7 +295,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ServerTimeLeft"
-		"font"			"Medium12"
+		"font"			"AvenirMedium12"
 		"fgcolor"		"Text"
 		"labelText"		"%servertimeleft%"
 		"textAlignment"		"east"
@@ -380,7 +380,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"Spectators"
-		"font"			"Medium12"
+		"font"			"AvenirMedium12"
 		"fgcolor"		"Text"
 		"labelText"		"%spectators%"
 		"textAlignment"		"west"
@@ -398,7 +398,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SpectatorsInQueue"
-		"font"			"Medium12"
+		"font"			"AvenirMedium12"
 		"fgcolor"		"Text"
 		"labelText"		"%waitingtoplay%"
 		"textAlignment"		"west"
@@ -477,7 +477,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"mapname"
-		"font"			"Medium10"
+		"font"			"AvenirMedium10"
 		"fgcolor"		"Text"
 		"labelText"		"%mapname%"
 		"textAlignment"		"east"
@@ -561,7 +561,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"DuelingLabel"
-			"font"			"Medium12"
+			"font"			"AvenirMedium12"
 			"fgcolor"		"Text"
 			"labelText"		"#TF_ScoreBoard_Dueling"
 			"textAlignment"		"center"
@@ -649,7 +649,7 @@
 				"wrap"			"0"
 				"labelText"		"%playername%"
 				"textAlignment"	"center"
-				"font"			"Medium10"
+				"font"			"AvenirMedium10"
 			}
 			"Score"
 			{
@@ -666,7 +666,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"Medium20"
+				"font"			"AvenirMedium20"
 				"fgcolor"		"Text"
 			}
 		}
@@ -746,7 +746,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"Medium20"
+				"font"			"AvenirMedium20"
 				"fgcolor"		"Text"
 			}
 		}
@@ -809,7 +809,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"AssistsLabel"
-			"font"			"Medium10"
+			"font"			"AvenirMedium10"
 			"fgcolor"		"Text"
 			"labelText"		"#TF_ScoreBoard_AssistsLabel"
 			"textAlignment"		"west"
@@ -827,7 +827,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"DestructionLabel"
-			"font"			"Medium10"
+			"font"			"AvenirMedium10"
 			"fgcolor"		"Text"
 			"labelText"		"#TF_ScoreBoard_DestructionLabel"
 			"textAlignment"		"west"
@@ -881,7 +881,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"KillsLabel2"
-			"font"			"Medium10"
+			"font"			"AvenirMedium10"
 			"fgcolor"		"Text"
 			"labelText"		"Kills"
 			"textAlignment"		"center"
@@ -899,7 +899,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"DeathsLabel2"
-			"font"			"Medium10"
+			"font"			"AvenirMedium10"
 			"fgcolor"		"Text"
 			"labelText"		"Deaths"
 			"textAlignment"		"center"
@@ -917,7 +917,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"gametype"
-			"font"			"Medium10"
+			"font"			"AvenirMedium10"
 			"fgcolor"		"Text"
 			"labelText"		"%gametype%"
 			"textAlignment"		"east"
@@ -935,7 +935,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Assists"
-			"font"			"Medium10"
+			"font"			"AvenirMedium10"
 			"fgcolor"		"Text"
 			"labelText"		"%assists%"
 			"textAlignment"		"west"
@@ -953,7 +953,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Destruction"
-			"font"			"Medium10"
+			"font"			"AvenirMedium10"
 			"fgcolor"		"Text"
 			"labelText"		"%destruction%"
 			"textAlignment"		"west"
@@ -971,7 +971,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"CapturesLabel"
-			"font"			"Medium10"
+			"font"			"AvenirMedium10"
 			"fgcolor"		"Text"
 			"labelText"		"#TF_ScoreBoard_CapturesLabel"
 			"textAlignment"		"west"
@@ -989,7 +989,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"DefensesLabel"
-			"font"			"Medium10"
+			"font"			"AvenirMedium10"
 			"fgcolor"		"Text"
 			"labelText"		"#TF_ScoreBoard_DefensesLabel"
 			"textAlignment"		"west"
@@ -1007,7 +1007,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"DominationLabel"
-			"font"			"Medium10"
+			"font"			"AvenirMedium10"
 			"fgcolor"		"Text"
 			"labelText"		"#TF_ScoreBoard_DominationLabel"
 			"textAlignment"		"west"
@@ -1025,7 +1025,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RevengeLabel"
-			"font"			"Medium10"
+			"font"			"AvenirMedium10"
 			"fgcolor"		"Text"
 			"labelText"		"#TF_ScoreBoard_RevengeLabel"
 			"textAlignment"		"west"
@@ -1043,7 +1043,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Captures"
-			"font"			"Medium10"
+			"font"			"AvenirMedium10"
 			"fgcolor"		"Text"
 			"labelText"		"%captures%"
 			"textAlignment"		"west"
@@ -1061,7 +1061,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Defenses"
-			"font"			"Medium10"
+			"font"			"AvenirMedium10"
 			"fgcolor"		"Text"
 			"labelText"		"%defenses%"
 			"textAlignment"		"west"
@@ -1079,7 +1079,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Domination"
-			"font"			"Medium10"
+			"font"			"AvenirMedium10"
 			"fgcolor"		"Text"
 			"labelText"		"%dominations%"
 			"textAlignment"		"west"
@@ -1097,7 +1097,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Revenge"
-			"font"			"Medium10"
+			"font"			"AvenirMedium10"
 			"fgcolor"		"Text"
 			"labelText"		"%Revenge%"
 			"textAlignment"		"west"
@@ -1115,7 +1115,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"HealingLabel"
-			"font"			"Medium10"
+			"font"			"AvenirMedium10"
 			"fgcolor"		"Text"
 			"labelText"		"#TF_ScoreBoard_HealingLabel"
 			"textAlignment"		"west"
@@ -1133,7 +1133,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"InvulnLabel"
-			"font"			"Medium10"
+			"font"			"AvenirMedium10"
 			"fgcolor"		"Text"
 			"labelText"		"#TF_ScoreBoard_InvulnLabel"
 			"textAlignment"		"west"
@@ -1151,7 +1151,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TeleportsLabel"
-			"font"			"Medium10"
+			"font"			"AvenirMedium10"
 			"fgcolor"		"Text"
 			"labelText"		"#TF_ScoreBoard_TeleportsLabel"
 			"textAlignment"		"west"
@@ -1169,7 +1169,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"HeadshotsLabel"
-			"font"			"Medium10"
+			"font"			"AvenirMedium10"
 			"fgcolor"		"Text"
 			"labelText"		"#TF_ScoreBoard_HeadshotsLabel"
 			"textAlignment"		"west"
@@ -1187,7 +1187,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Healing"
-			"font"			"Medium10"
+			"font"			"AvenirMedium10"
 			"fgcolor"		"Text"
 			"labelText"		"%healing%"
 			"textAlignment"		"west"
@@ -1205,7 +1205,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Invuln"
-			"font"			"Medium10"
+			"font"			"AvenirMedium10"
 			"fgcolor"		"Text"
 			"labelText"		"%invulns%"
 			"textAlignment"		"west"
@@ -1223,7 +1223,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Teleports"
-			"font"			"Medium10"
+			"font"			"AvenirMedium10"
 			"fgcolor"		"Text"
 			"labelText"		"%teleports%"
 			"textAlignment"		"west"
@@ -1241,7 +1241,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Headshots"
-			"font"			"Medium10"
+			"font"			"AvenirMedium10"
 			"fgcolor"		"Text"
 			"labelText"		"%headshots%"
 			"textAlignment"		"west"
@@ -1259,7 +1259,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BackstabsLabel"
-			"font"			"Medium10"
+			"font"			"AvenirMedium10"
 			"fgcolor"		"Text"
 			"labelText"		"#TF_ScoreBoard_BackstabsLabel"
 			"textAlignment"		"west"
@@ -1277,7 +1277,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Backstabs"
-			"font"			"Medium10"
+			"font"			"AvenirMedium10"
 			"fgcolor"		"Text"
 			"labelText"		"%backstabs%"
 			"textAlignment"		"west"
@@ -1295,7 +1295,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BonusLabel"
-			"font"			"Medium10"
+			"font"			"AvenirMedium10"
 			"fgcolor"		"Text"
 			"labelText"		"#TF_ScoreBoard_BonusLabel"
 			"textAlignment"		"west"
@@ -1313,7 +1313,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Bonus"
-			"font"			"Medium10"
+			"font"			"AvenirMedium10"
 			"fgcolor"		"Text"
 			"labelText"		"%bonus%"
 			"textAlignment"		"west"
@@ -1331,7 +1331,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"SupportLabel"
-			"font"			"Medium10"
+			"font"			"AvenirMedium10"
 			"fgcolor"		"Text"
 			"labelText"		"#TF_Scoreboard_Support"
 			"textAlignment"	"west"
@@ -1349,7 +1349,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Support"
-			"font"			"Medium10"
+			"font"			"AvenirMedium10"
 			"fgcolor"		"Text"
 			"labelText"		"%support%"
 			"textAlignment"	"west"
@@ -1367,7 +1367,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DamageLabel"
-			"font"			"Medium10"
+			"font"			"AvenirMedium10"
 			"fgcolor"		"Text"
 			"labelText"		"#TF_Scoreboard_Damage"
 			"textAlignment"	"west"
@@ -1385,7 +1385,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Damage"
-			"font"			"Medium10"
+			"font"			"AvenirMedium10"
 			"fgcolor"		"Text"
 			"labelText"		"%damage%"
 			"textAlignment"	"west"

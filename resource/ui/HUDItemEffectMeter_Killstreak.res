@@ -45,7 +45,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Medium9"
+		"font"					"AvenirMedium9"
 		"fgcolor_override"		"Text"
 	}
 

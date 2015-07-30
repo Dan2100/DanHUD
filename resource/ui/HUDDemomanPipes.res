@@ -39,7 +39,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Medium7"
+		"font"					"AvenirMedium7"
 		"fgcolor_override"		"MeterLabel"
 	}
 
@@ -113,7 +113,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"MediumNumbers20"
-			"fgcolor"		"Health"
+			"fgcolor"		"Text"
 		}
 		"NumPipesLabelDropshadow"
 		{
@@ -190,8 +190,6 @@
 			"dulltext"		"1"
 			"brighttext"	"0"
 			"font"			"HudFontMedium"
-			"font_minmode"	"HudFontSmall"
-			"font_lodef"	"HudFontMediumBig"
 		}
 		"NumPipesLabelDropshadow"
 		{
@@ -215,9 +213,7 @@
 			"dulltext"		"1"
 			"brighttext"	"0"
 			"font"			"HudFontMedium"
-			"font_minmode"	"HudFontSmall"
-			"font_lodef"	"HudFontMediumBig"
-			"fgcolor"		"black"
+			"fgcolor"		"Black"
 		}			
 	}				
 }
