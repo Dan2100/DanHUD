@@ -53,7 +53,7 @@
 		"textAlignment"		"south-west"
 		"Command"			"loadout scout"
 		"Default"			"0"
-		"font"				"AvenirMedium12"
+		"font"				"AvenirMedium48"
 		"scaleImage"		"1"
 		"activeimage"		"class_sel_sm_scout_red"
 		"inactiveimage"		"class_sel_sm_scout_inactive"

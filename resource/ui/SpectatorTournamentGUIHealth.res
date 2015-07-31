@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BlackFilter"
-		"xpos"			"-36"
+		"xpos"			"-34"
 		"ypos"			"3"
 		"zpos"			"1"
 		"wide"			"90"
@@ -13,19 +13,19 @@
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 155"
 	}
-//	"BlackFilterUnder"
-//	{
-//		"ControlName"	"ImagePanel"
-//		"fieldName"		"BlackFilterUnder"
-//		"xpos"			"-34"
-//		"ypos"			"3"
-//		"zpos"			"-3"
-//		"wide"			"90"
-//		"tall"			"20"
-//		"visible"		"1"
-//		"enabled"		"1"
-//		"fillcolor"		"0 0 0 255"
-//	}		
+	"BlackFilterUnder"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BlackFilterUnder"
+		"xpos"			"-34"
+		"ypos"			"3"
+		"zpos"			"-3"
+		"wide"			"90"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 255"
+	}		
 	"GreenFilter"
 	{
 		"ControlName"	"ImagePanel"
@@ -100,8 +100,8 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueSpec"
 		"labelText"		"%Health%"
-		"font"			"AvenirMedium10"
-		"fgcolor"		"White"
+		"font"			"MediumNumbers10"
+		"fgcolor"		"Text"
 		"xpos"			"-15"
 		"ypos"			"4"
 		"zpos"			"5"

@@ -1,4 +1,4 @@
-"Resource/UI/HudItemEffectMeter_Demoman.res"
+"Resource/UI/HudItemEffectMeter_Engineer.res"
 {
 	HudItemEffectMeter
 	{
@@ -58,17 +58,21 @@
 		"font"					"Default"
 		"xpos"					"0"
 		"ypos"					"23"
+		"ypos_minmode"			"0"
+		"xpos_minmode"			"0"
 		"zpos"					"2"
-		"wide"					"100"
+		"wide"					"40"
+		"wide_minmode"			"50"
 		"tall"					"6"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"0"
 		"enabled"				"0"
-		"textAlignment"			"center"
+		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
 	}					
+	
 	"ItemEffectMeterCount"
 	{
 		"ControlName"			"CExLabel"
@@ -87,6 +91,6 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"MediumNumbers20"
-		"fgcolor_override"		"Text"
+		"fgcolor"				"Text"
 	}
 }
