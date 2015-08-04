@@ -89,7 +89,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"AvenirMedium9"
+		"font"			"AvenirMedium10"
 		"fgcolor"		"Text"
 	}			
 	"OvertimeBG"
@@ -123,7 +123,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"AvenirMedium9"
+		"font"			"AvenirMedium10"
 		"fgcolor"		"Text"
 	}			
 	"SuddenDeathBG"
@@ -157,7 +157,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"AvenirMedium9"
+		"font"			"AvenirMedium10"
 		"fgcolor"		"Text"
 	}	
 	"SetupBG"
@@ -191,7 +191,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"AvenirMedium9"
+		"font"			"AvenirMedium10"
 		"fgcolor"		"Text"
 	}	
 	"ServerTimeLimitLabelBG"

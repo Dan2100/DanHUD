@@ -63,6 +63,9 @@ Scheme
         "Gray"              "154 142 142 255"
         "BrightGray"        "210 200 200 255"
 		"HudBG"				"0 0 0 0"
+		
+		"Base Color"				"15 255 255 255"
+		"Button Color"				"72 255 255 255"	
 	
 		// base colors
 		"Orange"			"178 82 22 255"
@@ -1245,8 +1248,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoMedium"
-				"tall"		"20"
+				"name"		"AvenirLTStd-Medium"
+				"tall"		"24"
 				"antialias"	"1"
 				"dropshadow"	"1"
 			}
@@ -1255,8 +1258,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoMedium"
-				"tall"		"20"
+				"name"		"AvenirLTStd-Medium"
+				"tall"		"24"
 				"antialias"	"1"
 				"italic"	"1"
 				"dropshadow"	"1"
@@ -1267,8 +1270,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoMedium"
-				"tall"		"20"
+				"name"		"AvenirLTStd-Medium"
+				"tall"		"24"
 				"antialias"	"1"
 				"dropshadow"	"1"
 			}
@@ -1277,8 +1280,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoMedium"
-				"tall"		"20"
+				"name"		"AvenirLTStd-Medium"
+				"tall"		"24"
 				"antialias"	"1"
 				"italic"	"1"
 				"dropshadow"	"1"
@@ -1289,9 +1292,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NovecentoMedium"
-
-				"tall"		"16"
+				"name"		"AvenirLTStd-Medium"
+				"tall"		"20"
 				"antialias"	"1"
 				"dropshadow"	"1"
 			}
@@ -2852,6 +2854,16 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"HeavyCaps22"
+		{
+			"1"
+			{
+				"name"		"HeavyCaps"
+				"tall"		"22"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"HeavyCaps32"
 		{
 			"1"
@@ -3230,7 +3242,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"replay/thumbnails/bg_black"
+			"image"					"../hud/color_panel_brown"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -3263,7 +3275,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"replay/thumbnails/bg_red"
+			"image"					"../hud/color_panel_red"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -3274,7 +3286,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"replay/thumbnails/bg_blue"
+			"image"					"../hud/color_panel_blu"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional

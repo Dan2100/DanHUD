@@ -12,19 +12,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 155"
-	}
-	"BlackFilterUnder"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BlackFilterUnder"
-		"xpos"			"-34"
-		"ypos"			"3"
-		"zpos"			"-3"
-		"wide"			"90"
-		"tall"			"20"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"0 0 0 255"
 	}		
 	"GreenFilter"
 	{
@@ -103,10 +90,10 @@
 		"font"			"MediumNumbers10"
 		"fgcolor"		"Text"
 		"xpos"			"-15"
-		"ypos"			"4"
+		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"50"
-		"tall"			"18"
+		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"	

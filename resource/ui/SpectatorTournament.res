@@ -62,7 +62,7 @@
 				"fieldName"		"MainPanelBG"
 				"xpos"			"0"
 				"ypos"			"0"
-				"zpos"			"-10"
+				"zpos"			"-1"
 				"wide"			"125"
 				"tall"			"20"
 				"visible"		"1"
@@ -78,7 +78,7 @@
 				"fieldName"		"classimage"
 				"xpos"			"1"
 				"ypos"			"0"
-				"zpos"			"3"
+				"zpos"			"7"
 				"wide"			"17"
 				"tall"			"16"
 				"visible"		"1"
@@ -185,7 +185,7 @@
 				"fgcolor"		"Text"
 				"xpos"			"19"
 				"ypos"			"-1"
-				"zpos"			"5"
+				"zpos"			"7"
 				"wide"			"21"
 				"tall"			"21"
 				"autoResize"	"0"
@@ -193,7 +193,6 @@
 				"visible"		"1"
 				"labelText"		"%respawntime%"
 				"textAlignment"	"center"
-				"fgcolor"		"30 30 30 255"
 				
 				if_mvm
 				{
@@ -206,23 +205,23 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"Blocks"
 				"font"			"Blocks"
-				"fgcolor"		"Black"
-				"xpos"			"19"
+				"fgcolor"		"30 30 30 255"
+				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"5"
-				"wide"			"21"
-				"tall"			"30"
+				"wide"			"40"
+				"tall"			"18"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%respawntime%"
-				"textAlignment"	"west"
+				"textAlignment"	"center"
 				
 				if_mvm
 				{
 					"ypos"			"17"
 				}
-			}			
+			}				
 			
 			"chargeamount"
 			{
@@ -247,7 +246,7 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"specindex"
 				"font"			"DefaultVerySmall"
-				"xpos"			"24"
+				"xpos"			"4"
 				"ypos"			"2"
 				"zpos"			"5"
 				"wide"			"0"

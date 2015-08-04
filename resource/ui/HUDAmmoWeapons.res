@@ -127,7 +127,7 @@
 		"fgcolor"		"Shadow"
 		"xpos"			"16"
 		"ypos"			"38"
-		"zpos"			"5"
+		"zpos"			"4"
 		"wide"			"150"
 		"tall"			"56"
 		"visible"		"0"
