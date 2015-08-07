@@ -222,7 +222,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"ScoreboardBG"
+		"fillcolor"		"TextBG"
 	}
 	"WinningTeamLabel"
 	{	

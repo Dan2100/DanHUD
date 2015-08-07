@@ -15,9 +15,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"GrayBG"
-		"infocus_bgcolor_override" "GrayBG"
-		"outoffocus_bgcolor_override" "GrayBG"
+		"bgcolor_override"	"MainBG"
+		"infocus_bgcolor_override" "MainBG"
+		"outoffocus_bgcolor_override" "MainBG"
 		
 		"selectlabely_default"		"25"
 		"selectlabely_onchanges"	"15"
@@ -31,7 +31,7 @@
 		"class_distance_min"		"7"
 		"class_distance_max"		"100"
 
-		"itemcountcolor"			"WhiteS"
+		"itemcountcolor"			"Text"
 		"itemcountcolor_noitems"	"114 114 114 255"
 	}
 	
@@ -487,7 +487,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"fgcolor_override" "WhiteS"
+		"fgcolor_override" "Text"
 	}
 	"NoGCLabel"
 	{
@@ -505,7 +505,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"fgcolor_override" "WhiteS"
+		"fgcolor_override" "Text"
 	}
 	"SelectLabel"
 	{
@@ -541,7 +541,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "WhiteS"
+		"fgcolor_override" "Text"
 	}
 	
 	"class_loadout_panel"

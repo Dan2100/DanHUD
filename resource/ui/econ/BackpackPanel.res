@@ -296,7 +296,7 @@
 		"textHidden"		"0"
 		"editable"		"1"
 		"unicode"		"1"
-		"fgcolor_override"	"WhiteS"
+		"fgcolor_override"	"Text"
 		"bgcolor_override"	"107 107 107 255"
 		"paintbackgroundtype" "2"
 		"font"		"HudFontSmallest"
@@ -441,7 +441,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "WhiteS"
+		"fgcolor_override" "Text"
 	}
 	
 	"NextPageButton"

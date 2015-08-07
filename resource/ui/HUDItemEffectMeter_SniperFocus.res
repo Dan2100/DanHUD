@@ -53,9 +53,6 @@
 		"brighttext"			"0"
 		"font"					"AvenirMedium7"
 		"fgcolor_override"		"MeterLabel"
-		
-		"xpos_minmode"			"50"
-		"wide_minmode"			"100"
 	}
 
 	"ItemEffectMeter"
@@ -75,10 +72,7 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"bgcolor_override"		"MeterBackground"
-		"fgcolor_override"		"MeterForeground"
-		
-		"xpos_minmode"			"50"
-		"wide_minmode"			"100"
+		"bgcolor_override"		"MeterBG"
+		"fgcolor_override"		"MeterFG"
 	}				
 }

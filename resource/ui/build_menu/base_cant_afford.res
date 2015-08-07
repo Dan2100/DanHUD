@@ -51,14 +51,14 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"ScoreboardBG"
+		"fillcolor"		"TextBG"
 	}
 	
 	"CantBuildReason"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CantBuildReason"
-		"font"			"Futura9"
+		"font"			"AvenirMedium10"
 		"fgcolor"		"225 30 30 255"
 		"xpos"			"5"
 		"ypos"			"33"

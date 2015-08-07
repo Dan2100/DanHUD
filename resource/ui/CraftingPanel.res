@@ -16,9 +16,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"GrayBG"
-		"infocus_bgcolor_override" "GrayBG"
-		"outoffocus_bgcolor_override" "GrayBG"
+		"bgcolor_override"	"MainBG"
+		"infocus_bgcolor_override" "MainBG"
+		"outoffocus_bgcolor_override" "MainBG"
 
 		"item_ypos"						"85"
 		"output_item_ypos"				"255"		
@@ -77,7 +77,7 @@
 			"textinsetx"	"0"
 			"defaultFgColor_override" "110 110 110 255"
 			"defaultBgColor_override" "0 0 0 0"
-			"armedFgColor_override" "WhiteS"
+			"armedFgColor_override" "Text"
 			"armedBgColor_override" "0 0 0 0"
 			"depressedFgColor_override" "178 82 22 255"
 			"depressedBgColor_override" "0 0 0 0"
@@ -125,7 +125,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "WhiteS"
+		"fgcolor_override" "Text"
 	}
 	
 	"selectedrecipecontainer"
@@ -156,7 +156,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"WhiteS"
+			"fgcolor"		"Text"
 			"wrap"			"1"
 		}
 		
@@ -176,7 +176,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"WhiteS"
+			"fgcolor"		"Text"
 			"wrap"			"1"
 		}
 	
@@ -417,7 +417,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"WhiteS"
+			"fgcolor_override"	"Text"
 			"wrap"			"1"
 			"centerwrap"	"1"
 		}

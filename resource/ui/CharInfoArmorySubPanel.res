@@ -13,9 +13,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"GrayBG"
-		"infocus_bgcolor_override" "GrayBG"
-		"outoffocus_bgcolor_override" "GrayBG"
+		"bgcolor_override"	"MainBG"
+		"infocus_bgcolor_override" "MainBG"
+		"outoffocus_bgcolor_override" "MainBG"
 		
 		"thumbnail_bgcolor"			"42 42 42 255"
 		"thumbnail_bgcolor_mouseover"	"144 144 144 255"
@@ -160,7 +160,7 @@
 		"paintborder"	"1"
 		"border"		"NoBorder"
 		"paintbackground"	"1"
-		"bgcolor_override" "GrayBGDark"
+		"bgcolor_override" "MainBGDark"
 
 		"Data_TextRichText"
 		{
@@ -325,7 +325,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "WhiteS"
+		"fgcolor_override" "Text"
 	}
 	
 	"NextPageButton"

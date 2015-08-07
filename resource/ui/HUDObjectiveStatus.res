@@ -14,8 +14,8 @@
 		"delta_item_x"			"102"
 		"delta_item_start_y"	"2"
 		"delta_item_end_y"		"2"
-		"PositiveColor"			"125 225 30 255"
-		"NegativeColor"			"225 30 30 255"
+		"PositiveColor"			"HealthNumbers"
+		"NegativeColor"			"LossNumbers"
 		"delta_lifetime"		"2"
 		"delta_item_font"		"MediumNumbers16"
 		

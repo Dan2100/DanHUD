@@ -480,7 +480,7 @@
 		"IconColor"		"255 255 255 255"
 		"LocalPlayerColor"	"0 0 0 255"
 
-		"BaseBackgroundColor"	"ScoreboardBG"
+		"BaseBackgroundColor"	"TextBG"
 		"LocalBackgroundColor"	"200 200 200 255"
 	}
 
@@ -1002,7 +1002,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-100"
-		"ypos"			"c83"
+		"ypos"			"c108"
 		"wide"			"200"
 		"tall"			"60"
 	}	

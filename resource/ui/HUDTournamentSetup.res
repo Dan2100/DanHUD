@@ -13,7 +13,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"ScoreboardBG"
+		"fillcolor"		"TextBG"
 	}
 
 	"TournamentSetupLabel"
@@ -119,13 +119,13 @@
 		"default"		"12"
 		"font"			"AvenirMedium10"
 		"fgcolor"		"Text"
-		"defaultBgColor_override" "60 60 60 255"
-		"armedBgColor_override" "60 60 60 255"
-		"depressedBgColor_override" "60 60 60 255"
-		"selectedBgColor_override" "60 60 60 255"
+		"defaultBgColor_override" "Text"
+		"armedBgColor_override" "ButtonPress"
+		"depressedBgColor_override" "ButtonPress"
+		"selectedBgColor_override" "Text"
 		"defaultFgColor_override" "Text"
-		"armedFgColor_override" "125 225 30 255"
-		"depressedFgColor_override" "125 225 30 255"
+		"armedFgColor_override" "ButtonPress"
+		"depressedFgColor_override" "ButtonPress"
 		"selectedFgColor_override" "Text"
 	}
 
@@ -150,13 +150,13 @@
 		"default"		"1"
 		"font"			"AvenirMedium10"
 		"fgcolor"		"Text"
-		"defaultBgColor_override" "60 60 60 255"
-		"armedBgColor_override" "60 60 60 255"
-		"depressedBgColor_override" "60 60 60 255"
-		"selectedBgColor_override" "60 60 60 255"
+		"defaultBgColor_override" "Text"
+		"armedBgColor_override" "ButtonPress"
+		"depressedBgColor_override" "ButtonPress"
+		"selectedBgColor_override" "Text"
 		"defaultFgColor_override" "Text"
-		"armedFgColor_override" "125 225 30 255"
-		"depressedFgColor_override" "125 225 30 255"
+		"armedFgColor_override" "ButtonPress"
+		"depressedFgColor_override" "ButtonPress"
 		"selectedFgColor_override" "Text"
 	}
 }

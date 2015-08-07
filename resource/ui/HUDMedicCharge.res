@@ -143,8 +143,8 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"bgcolor_override"	"MeterBackground"
-		"fgcolor_override"	"MeterForeground"
+		"bgcolor_override"		"MeterBG"
+		"fgcolor_override"		"MeterFG"
 	}
 
 	"ChargeMeter1"

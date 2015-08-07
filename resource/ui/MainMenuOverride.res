@@ -55,12 +55,12 @@
 				"paintbackground"	"0"
 				
 				"defaultFgColor_override" "Text"
-				"armedFgColor_override" "Button Color"
-				"depressedFgColor_override" "Button Color"
+				"armedFgColor_override" "ButtonPress"
+				"depressedFgColor_override" "ButtonPress"
 				
 				"image_drawcolor"	"Text"
-				"image_armedcolor"	"Button Color"
-				"image_depressedcolor" "Button Color"
+				"image_armedcolor"	"ButtonPress"
+				"image_depressedcolor" "ButtonPress"
 				
 				"SubImage"
 				{
@@ -211,7 +211,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MenuBG"
-		"xpos"			"75"
+		"xpos"			"55"
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"200"
@@ -219,7 +219,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"fillcolor"		"36 36 36 225"
+		"fillcolor"		"TextBG"
 	}
 	"TFTitle"
 	{
@@ -227,7 +227,7 @@
 		"fieldName"		"TFTitle"
 		"font"			"HeavyCaps22"
 		"fgcolor"		"Text"
-		"xpos"			"75"
+		"xpos"			"55"
 		"ypos"			"35"
 		"zpos"			"100"
 		"wide"			"200"
@@ -236,7 +236,7 @@
 		"enabled"		"1"
 		"labelText"		"TEAM FORTRESS 2"
 		"textAlignment" "center"
-	}	
+	}
 	
 	"TFCharacterImage"
 	{
@@ -343,33 +343,32 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CreateServerButton"
-		"xpos"			"240"
-		"ypos"			"128"
-		"zpos"			"12"
-		"wide"			"20"
-		"tall"			"20"
+		"xpos"			"50"
+		"ypos"			"188"
+		"zpos"			"11"
+		"wide"			"200"
+		"tall"			"16"
 		"visible"		"1"
-		
+		"PaintBackgroundType"	"0"
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"20"
-			"tall"			"20"
+			"wide"			"200"
+			"tall"			"16"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"textinsetx"	"100"
+			"textinsetx"	"25"
 			"use_proportional_insets" "1"
 			"font"			"AvenirMedium14"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
-	
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -379,27 +378,26 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "Text"
-			"armedFgColor_override" "Button Color"
-			"depressedFgColor_override" "Button Color"
+			"armedFgColor_override" "ButtonPress"
+			"depressedFgColor_override" "ButtonPress"
 			
-			"image_drawcolor"	"Text"
-			"image_armedcolor"	"Button Color"
-			
+			"image_drawcolor"	"117 107 94 255"
+			"image_armedcolor"	"235 226 202 255"
+
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"3"
+				"xpos"			"6"
+				"ypos"			"6"
 				"zpos"			"1"
-				"wide"			"12"
-				"tall"			"12"
+				"wide"			"14"
+				"tall"			"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"glyph_create"
 				"scaleImage"	"1"
-			}				
-		}		
+			}
+		}
 	}
 	
 	"QuestLogButton"
@@ -1188,8 +1186,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"TrainingButton"
-		"xpos"			"70"
-		"ypos"			"198"
+		"xpos"			"50"
+		"ypos"			"206"
 		"zpos"			"11"
 		"wide"			"200"
 		"tall"			"16"
@@ -1224,11 +1222,11 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "Text"
-			"armedFgColor_override" "Button Color"
-			"depressedFgColor_override" "Button Color"
+			"armedFgColor_override" "ButtonPress"
+			"depressedFgColor_override" "ButtonPress"
 			
 			"image_drawcolor"	"Text"
-			"image_armedcolor"	"Button Color"
+			"image_armedcolor"	"ButtonPress"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1248,8 +1246,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ReplayBrowserButton"
-		"xpos"			"70"
-		"ypos"			"284"
+		"xpos"			"50"
+		"ypos"			"292"
 		"zpos"			"11"
 		"wide"			"200"
 		"tall"			"16"
@@ -1283,11 +1281,11 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "Text"
-			"armedFgColor_override" "Button Color"
-			"depressedFgColor_override" "Button Color"
+			"armedFgColor_override" "ButtonPress"
+			"depressedFgColor_override" "ButtonPress"
 			
 			"image_drawcolor"	"Text"
-			"image_armedcolor"	"Button Color"
+			"image_armedcolor"	"ButtonPress"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1307,8 +1305,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"SteamWorkshopButton"
-		"xpos"			"70"
-		"ypos"			"302"
+		"xpos"			"50"
+		"ypos"			"310"
 		"zpos"			"11"
 		"wide"			"200"
 		"tall"			"16"
@@ -1343,8 +1341,8 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "Text"
-			"armedFgColor_override" "Button Color"
-			"depressedFgColor_override" "Button Color"
+			"armedFgColor_override" "ButtonPress"
+			"depressedFgColor_override" "ButtonPress"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"235 226 202 255"
@@ -1367,8 +1365,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"GeneralStoreButton"
-		"xpos"			"70"
-		"ypos"			"250"
+		"xpos"			"50"
+		"ypos"			"258"
 		"zpos"			"11"
 		"wide"			"200"
 		"tall"			"16"
@@ -1402,8 +1400,8 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "Text"
-			"armedFgColor_override" "Button Color"
-			"depressedFgColor_override" "Button Color"
+			"armedFgColor_override" "ButtonPress"
+			"depressedFgColor_override" "ButtonPress"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"235 226 202 255"
@@ -1440,8 +1438,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CharacterSetupButton"
-		"xpos"			"70"
-		"ypos"			"232"
+		"xpos"			"50"
+		"ypos"			"240"
 		"zpos"			"11"
 		"wide"			"200"
 		"tall"			"16"
@@ -1475,8 +1473,8 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "Text"
-			"armedFgColor_override" "Button Color"
-			"depressedFgColor_override" "Button Color"
+			"armedFgColor_override" "ButtonPress"
+			"depressedFgColor_override" "ButtonPress"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"235 226 202 255"
@@ -1674,7 +1672,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"VersionNumber"
-		"xpos"			"22"
+		"xpos"			"2"
 		"ypos"			"65"
 		"zpos"			"11"
 		"wide"			"216"
@@ -1737,8 +1735,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"QuickplayButton"
-		"xpos"			"70"
-		"ypos"			"146"
+		"xpos"			"50"
+		"ypos"			"136"
 		"zpos"			"11"
 		"wide"			"200"
 		"tall"			"16"
@@ -1772,69 +1770,8 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "Text"
-			"armedFgColor_override" "Button Color"
-			"depressedFgColor_override" "Button Color"
-			
-			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"235 226 202 255"
-
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"6"
-				"ypos"			"6"
-				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-			}
-		}
-	}
-		
-	"QuickplayChangeButton"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"QuickplayChangeButton"
-		"xpos"			"70"
-		"ypos"			"184"
-		"zpos"			"11"
-		"wide"			"200"
-		"tall"			"16"
-		"visible"		"1"
-		"PaintBackgroundType"	"0"
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"125"
-			"tall"			"16"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"textinsetx"	"25"
-			"use_proportional_insets" "1"
-			"font"			"AvenirMedium14"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			
-			"border_default"	""
-			"border_armed"		""
-			"paintbackground"	"0"
-			
-			"defaultFgColor_override" "Text"
-			"armedFgColor_override" "Button Color"
-			"depressedFgColor_override" "Button Color"
+			"armedFgColor_override" "ButtonPress"
+			"depressedFgColor_override" "ButtonPress"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"235 226 202 255"
@@ -1859,8 +1796,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"PlayPVEButton"
-		"xpos"			"70"
-		"ypos"			"180"
+		"xpos"			"50"
+		"ypos"			"154"
 		"zpos"			"11"
 		"wide"			"200"
 		"tall"			"16"
@@ -1894,8 +1831,8 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "Text"
-			"armedFgColor_override" "Button Color"
-			"depressedFgColor_override" "Button Color"
+			"armedFgColor_override" "ButtonPress"
+			"depressedFgColor_override" "ButtonPress"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"235 226 202 255"
@@ -1920,8 +1857,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ServerBrowserButton"
-		"xpos"			"70"
-		"ypos"			"128"
+		"xpos"			"50"
+		"ypos"			"118"
 		"zpos"			"11"
 		"wide"			"200"
 		"tall"			"16"
@@ -1955,8 +1892,8 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "Text"
-			"armedFgColor_override" "Button Color"
-			"depressedFgColor_override" "Button Color"
+			"armedFgColor_override" "ButtonPress"
+			"depressedFgColor_override" "ButtonPress"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"235 226 202 255"
@@ -1981,8 +1918,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ChangeServerButton"
-		"xpos"			"70"
-		"ypos"			"166"
+		"xpos"			"50"
+		"ypos"			"136"
 		"zpos"			"11"
 		"wide"			"200"
 		"tall"			"16"
@@ -2016,8 +1953,8 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "Text"
-			"armedFgColor_override" "Button Color"
-			"depressedFgColor_override" "Button Color"
+			"armedFgColor_override" "ButtonPress"
+			"depressedFgColor_override" "ButtonPress"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"235 226 202 255"
@@ -2042,8 +1979,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ResumeGameButton"
-		"xpos"			"70"
-		"ypos"			"148"
+		"xpos"			"50"
+		"ypos"			"118"
 		"zpos"			"11"
 		"wide"			"200"
 		"tall"			"16"
@@ -2077,8 +2014,8 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "Text"
-			"armedFgColor_override" "Button Color"
-			"depressedFgColor_override" "Button Color"
+			"armedFgColor_override" "ButtonPress"
+			"depressedFgColor_override" "ButtonPress"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"235 226 202 255"
@@ -2103,29 +2040,29 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CallVoteButton"
-		"xpos"			"200"
-		"ypos"			"146"
-		"zpos"			"12"
-		"wide"			"20"
-		"tall"			"20"
+		"xpos"			"50"
+		"ypos"			"170"
+		"zpos"			"11"
+		"wide"			"200"
+		"tall"			"16"
 		"visible"		"1"
-
+		"PaintBackgroundType"	"0"
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"20"
-			"tall"			"20"
+			"wide"			"200"
+			"tall"			"16"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"textinsetx"	"100"
+			"textinsetx"	"25"
 			"use_proportional_insets" "1"
-			"font"			"HudFontSmallBold"
+			"font"			"AvenirMedium14"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -2138,55 +2075,54 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "Text"
-			"armedFgColor_override" "Button Color"
-			"depressedFgColor_override" "Button Color"
+			"armedFgColor_override" "ButtonPress"
+			"depressedFgColor_override" "ButtonPress"
 			
-			"image_drawcolor"	"Text"
-			"image_armedcolor"	"Button Color"
-			
+			"image_drawcolor"	"117 107 94 255"
+			"image_armedcolor"	"235 226 202 255"
+
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"4"
-				"ypos"			"4"
+				"xpos"			"6"
+				"ypos"			"6"
 				"zpos"			"1"
-				"wide"			"12"
-				"tall"			"12"
+				"wide"			"14"
+				"tall"			"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"glyph_create"
 				"scaleImage"	"1"
-			}				
+			}
 		}
 	}
 	"MutePlayersButton"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"MutePlayersButton"
-		"xpos"			"220"
-		"ypos"			"146"
-		"zpos"			"12"
-		"wide"			"20"
-		"tall"			"20"
+		"xpos"			"50"
+		"ypos"			"188"
+		"zpos"			"11"
+		"wide"			"200"
+		"tall"			"16"
 		"visible"		"1"
-
+		"PaintBackgroundType"	"0"
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"20"
-			"tall"			"20"
+			"wide"			"200"
+			"tall"			"16"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"textinsetx"	"100"
+			"textinsetx"	"25"
 			"use_proportional_insets" "1"
-			"font"			"HudFontSmallBold"
+			"font"			"AvenirMedium14"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -2199,55 +2135,54 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "Text"
-			"armedFgColor_override" "Button Color"
-			"depressedFgColor_override" "Button Color"
+			"armedFgColor_override" "ButtonPress"
+			"depressedFgColor_override" "ButtonPress"
 			
-			"image_drawcolor"	"Text"
-			"image_armedcolor"	"Button Color"
-			
+			"image_drawcolor"	"117 107 94 255"
+			"image_armedcolor"	"235 226 202 255"
+
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"4"
-				"ypos"			"4"
+				"xpos"			"6"
+				"ypos"			"6"
 				"zpos"			"1"
-				"wide"			"12"
-				"tall"			"12"
+				"wide"			"14"
+				"tall"			"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"glyph_create"
 				"scaleImage"	"1"
-			}				
+			}
 		}
 	}
 	"RequestCoachButton"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"RequestCoachButton"
-		"xpos"			"240"
-		"ypos"			"146"
-		"zpos"			"12"
-		"wide"			"20"
-		"tall"			"20"
+		"xpos"			"50"
+		"ypos"			"206"
+		"zpos"			"11"
+		"wide"			"200"
+		"tall"			"16"
 		"visible"		"1"
-
+		"PaintBackgroundType"	"0"
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"20"
-			"tall"			"20"
+			"wide"			"200"
+			"tall"			"16"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"textinsetx"	"100"
+			"textinsetx"	"25"
 			"use_proportional_insets" "1"
-			"font"			"HudFontSmallBold"
+			"font"			"AvenirMedium14"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -2260,26 +2195,25 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "Text"
-			"armedFgColor_override" "Button Color"
-			"depressedFgColor_override" "Button Color"
+			"armedFgColor_override" "ButtonPress"
+			"depressedFgColor_override" "ButtonPress"
 			
-			"image_drawcolor"	"Text"
-			"image_armedcolor"	"Button Color"
-			
+			"image_drawcolor"	"117 107 94 255"
+			"image_armedcolor"	"235 226 202 255"
+
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"4"
-				"ypos"			"4"
+				"xpos"			"6"
+				"ypos"			"6"
 				"zpos"			"1"
-				"wide"			"12"
-				"tall"			"12"
+				"wide"			"14"
+				"tall"			"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"glyph_create"
 				"scaleImage"	"1"
-			}				
+			}
 		}
 	}
 	
@@ -2316,7 +2250,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"NewUserForumsButton"
-		"xpos"			"125"
+		"xpos"			"105"
 		"ypos"			"441"
 		"zpos"			"2"
 		"wide"			"24"
@@ -2339,7 +2273,7 @@
 		"PaintBackgroundType" "0"
 		
 		"image_drawcolor"	"Text"
-		"image_armedcolor"	"Button Color"
+		"image_armedcolor"	"ButtonPress"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2360,7 +2294,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"AchievementsButton"
-		"xpos"			"145"
+		"xpos"			"125"
 		"ypos"			"441"
 		"zpos"			"3"
 		"wide"			"24"
@@ -2383,7 +2317,7 @@
 		"border_default"	""
 		
 		"image_drawcolor"	"Text"
-		"image_armedcolor"	"Button Color"
+		"image_armedcolor"	"ButtonPress"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2404,7 +2338,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CommentaryButton"
-		"xpos"			"165"
+		"xpos"			"145"
 		"ypos"			"441"
 		"zpos"			"4"
 		"wide"			"24"
@@ -2430,7 +2364,7 @@
 		
 		
 		"image_drawcolor"	"Text"
-		"image_armedcolor"	"Button Color"
+		"image_armedcolor"	"ButtonPress"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2451,7 +2385,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CoachPlayersButton"
-		"xpos"			"185"
+		"xpos"			"165"
 		"ypos"			"441"
 		"zpos"			"5"
 		"wide"			"24"
@@ -2474,7 +2408,7 @@
 		"border_default"	""
 		
 		"image_drawcolor"	"Text"
-		"image_armedcolor"	"Button Color"
+		"image_armedcolor"	"ButtonPress"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2495,7 +2429,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"ReportBugButton"
-		"xpos"			"205"
+		"xpos"			"185"
 		"ypos"			"441"
 		"zpos"			"1"
 		"wide"			"24"
@@ -2517,7 +2451,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"image_drawcolor"	"Text"
-		"image_armedcolor"	"Button Color"
+		"image_armedcolor"	"ButtonPress"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2538,8 +2472,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"TF2SettingsButton"
-		"xpos"			"60"
-		"ypos"			"354"
+		"xpos"			"40"
+		"ypos"			"362"
 		"zpos"			"1"
 		"wide"			"200"
 		"tall"			"16"
@@ -2560,8 +2494,8 @@
 		"Command"		"opentf2options"
 		
 		"defaultFgColor_override" "Text"
-		"armedFgColor_override" "Button Color"
-		"depressedFgColor_override" "Button Color"
+		"armedFgColor_override" "ButtonPress"
+		"depressedFgColor_override" "ButtonPress"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -2587,8 +2521,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"SettingsButton"
-		"xpos"			"60"
-		"ypos"			"336"
+		"xpos"			"40"
+		"ypos"			"344"
 		"zpos"			"1"
 		"wide"			"200"
 		"tall"			"16"
@@ -2609,8 +2543,8 @@
 		"Command"		"OpenOptionsDialog"
 		
 		"defaultFgColor_override" "Text"
-		"armedFgColor_override" "Button Color"
-		"depressedFgColor_override" "Button Color"
+		"armedFgColor_override" "ButtonPress"
+		"depressedFgColor_override" "ButtonPress"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -2636,8 +2570,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"QuitButton"
-		"xpos"			"60"
-		"ypos"			"388"
+		"xpos"			"40"
+		"ypos"			"396"
 		"zpos"			"1"
 		"wide"			"75"
 		"tall"			"16"
@@ -2658,14 +2592,14 @@
 		"Command"		"engine replay_confirmquit"
 		
 		"defaultFgColor_override" "Text"
-		"armedFgColor_override" "Button Color"
-		"depressedFgColor_override" "Button Color"		
+		"armedFgColor_override" "ButtonPress"
+		"depressedFgColor_override" "ButtonPress"		
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"image_drawcolor"	"Text"
-		"image_armedcolor"	"Button Color"
+		"image_armedcolor"	"ButtonPress"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2686,7 +2620,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"DemoUIButton"
-		"xpos"			"58"
+		"xpos"			"38"
 		"ypos"			"444"
 		"zpos"			"1"
 		"wide"			"100"
@@ -2708,14 +2642,14 @@
 		"Command"		"engine demoui"
 		
 		"defaultFgColor_override" "Text"
-		"armedFgColor_override" "Button Color"
-		"depressedFgColor_override" "Button Color"		
+		"armedFgColor_override" "ButtonPress"
+		"depressedFgColor_override" "ButtonPress"		
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"image_drawcolor"	"Text"
-		"image_armedcolor"	"Button Color"
+		"image_armedcolor"	"ButtonPress"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2736,7 +2670,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"ConsoleButton"
-		"xpos"			"195"
+		"xpos"			"175"
 		"ypos"			"444"
 		"zpos"			"1"
 		"wide"			"100"
@@ -2758,14 +2692,14 @@
 		"Command"		"engine toggleconsole"
 		
 		"defaultFgColor_override" "Text"
-		"armedFgColor_override" "Button Color"
-		"depressedFgColor_override" "Button Color"		
+		"armedFgColor_override" "ButtonPress"
+		"depressedFgColor_override" "ButtonPress"		
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"image_drawcolor"	"Text"
-		"image_armedcolor"	"Button Color"
+		"image_armedcolor"	"ButtonPress"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2778,7 +2712,6 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"scaleImage"	"1"
-			"image"			"glyph_quit"
 		}				
 	}		
 	
@@ -2786,8 +2719,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"DisconnectButton"
-		"xpos"			"60"
-		"ypos"			"388"
+		"xpos"			"40"
+		"ypos"			"396"
 		"zpos"			"1"
 		"wide"			"110"
 		"tall"			"16"
@@ -2807,8 +2740,8 @@
 		"Command"		"engine disconnect"
 		
 		"defaultFgColor_override" "Text"
-		"armedFgColor_override" "Button Color"
-		"depressedFgColor_override" "Button Color"
+		"armedFgColor_override" "ButtonPress"
+		"depressedFgColor_override" "ButtonPress"
 		
 		"border_default"	""
 		"border_armed"		""
@@ -2864,7 +2797,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"image_drawcolor"	"Text"
-		"image_armedcolor"	"Button Color"
+		"image_armedcolor"	"ButtonPress"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -3033,7 +2966,7 @@
 			"depressedFgColor_override" "46 43 42 255"
 			
 			"image_drawcolor"	"Text"
-			"image_armedcolor"	"Button Color"
+			"image_armedcolor"	"ButtonPress"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -3201,7 +3134,7 @@
 			"depressedFgColor_override" "46 43 42 255"
 			
 			"image_drawcolor"	"Text"
-			"image_armedcolor"	"Button Color"
+			"image_armedcolor"	"ButtonPress"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -3223,7 +3156,7 @@
 	{
 		"ControlName"	"CExplanationPopup"
 		"fieldName"		"NewUserForumHighlight"
-		"xpos"			"c-55"
+		"xpos"			"c-35"
 		"ypos"			"280"
 		"zpos"			"100"
 		"wide"			"250"
@@ -3313,7 +3246,7 @@
 			"depressedFgColor_override" "46 43 42 255"
 			
 			"image_drawcolor"	"Text"
-			"image_armedcolor"	"Button Color"
+			"image_armedcolor"	"ButtonPress"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -3425,7 +3358,7 @@
 			"depressedFgColor_override" "46 43 42 255"
 			
 			"image_drawcolor"	"Text"
-			"image_armedcolor"	"Button Color"
+			"image_armedcolor"	"ButtonPress"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -3537,7 +3470,7 @@
 			"depressedFgColor_override" "46 43 42 255"
 			
 			"image_drawcolor"	"Text"
-			"image_armedcolor"	"Button Color"
+			"image_armedcolor"	"ButtonPress"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -3649,7 +3582,7 @@
 			"depressedFgColor_override" "46 43 42 255"
 			
 			"image_drawcolor"	"Text"
-			"image_armedcolor"	"Button Color"
+			"image_armedcolor"	"ButtonPress"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"

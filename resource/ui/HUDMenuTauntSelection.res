@@ -25,7 +25,7 @@
 		"zpos"			"10"
 		"wide"			"440"
 		"tall"			"200"
-		"fillcolor"		"ScoreboardBG"
+		"fillcolor"		"TextBG"
 	}
 
 	"IcoReelIcon"

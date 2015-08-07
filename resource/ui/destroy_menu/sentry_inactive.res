@@ -4,8 +4,8 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemNameLabel"
-		"font"			"Futura11"
-		"fgcolor"		"OmpText"
+		"font"			"AvenirMedium12"
+		"fgcolor"		"Text"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"
@@ -51,15 +51,15 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"OmpDarkBG"
+		"fillcolor"		"TextBG"
 	}
 	
 	"NotBuiltLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NotBuiltLabel"
-		"font"			"Futura9"
-		"fgcolor"		"OmpText"
+		"font"			"AvenirMedium10"
+		"fgcolor"		"Text"
 		"xpos"			"5"
 		"ypos"			"26"
 		"zpos"			"2"
@@ -79,8 +79,8 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"UnavailableLabel"
-		"font"			"Futura9"
-		"fgcolor"		"OmpText"
+		"font"			"AvenirMedium10"
+		"fgcolor"		"Text"
 		"xpos"			"5"
 		"ypos"			"26"
 		"zpos"			"2"
@@ -116,8 +116,8 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"FuturaHeavy13"
-		"fgcolor"		"OmpText"
+		"font"			"AvenirMedium12"
+		"fgcolor"		"Text"
 		"xpos"			"0"
 		"ypos"			"88"
 		"zpos"			"1"
@@ -137,8 +137,8 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabelShadow"
-		"font"			"FuturaHeavy13"
-		"fgcolor"		"OmpShadow"
+		"font"			"AvenirMedium12"
+		"fgcolor"		"Shadow"
 		"xpos"			"1"
 		"ypos"			"89"
 		"zpos"			"1"

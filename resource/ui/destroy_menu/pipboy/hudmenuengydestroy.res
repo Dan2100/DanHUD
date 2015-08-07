@@ -29,7 +29,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"OmpDarkBG"
+		"fillcolor"		"TextBG"
 	}
 	
 	"TopBG"
@@ -68,8 +68,8 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
-		"font"			"Futura24"
-		"fgcolor"		"OmpShadow"
+		"font"			"AvenirMedium24"
+		"fgcolor"		"Shadow"
 		"xpos"			"9999"
 		"ypos"			"9999"
 		"zpos"			"1"
@@ -89,8 +89,8 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"Futura11"
-		"fgcolor"		"OmpText"
+		"font"			"AvenirMedium12"
+		"fgcolor"		"Text"
 		"xpos"			"4"
 		"ypos"			"0"
 		"zpos"			"2"
@@ -110,8 +110,8 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CancelLabel"
-		"font"			"Futura11"
-		"fgcolor"		"OmpText"	
+		"font"			"AvenirMedium12"
+		"fgcolor"		"Text"	
 		"xpos"			"4"
 		"ypos"			"0"
 		"zpos"			"1"

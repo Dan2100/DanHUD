@@ -13,13 +13,6 @@
 		"subimage" ""
 		"OnlyAtMenu" "1"
 	}
-	"QuickplayChangeButton"
-	{
-		"label" "Quick Play" 
-		"command" "quickplay"
-		"subimage" ""
-		"OnlyInGame" "1"
-	}
 	"PlayPVEButton"
 	{
 		"label" "Mann vs Machine" 
@@ -64,10 +57,10 @@
 	// These buttons get positioned by the MainMenuOverride.res	
 	"CreateServerButton"
 	{
-		"label" "#GameUI_GameMenu_CreateServer"
+		"label" "Create Server"
 		"command" "OpenCreateMultiplayerGameDialog"
+		"subimage" ""
 		"OnlyAtMenu" "1"
-		"tooltip" "#GameUI_GameMenu_CreateServer"
 	}
 	"GeneralStoreButton"
 	{
@@ -93,26 +86,23 @@
 	}
 	"CallVoteButton"
 	{
-		"label"			""
+		"label"			"Call Vote"
 		"command"		"callvote"
 		"OnlyInGame"	"1"
-		"subimage" "icon_checkbox"
-		"tooltip" "#MMenu_CallVote"
+		"subimage" ""
 	}
 	"MutePlayersButton"
 	{
-		"label"			""
+		"label"			"Mute Players"
 		"command"		"OpenPlayerListDialog"
 		"OnlyInGame"	"1"
-		"subimage" "glyph_muted"
-		"tooltip" "#MMenu_MutePlayers"
+		"subimage" ""
 	}
 	"RequestCoachButton"
 	{
-		"label"			""
+		"label"			"Request Coach"
 		"command"		"engine cl_coach_find_coach"
 		"OnlyInGame"	"1"
-		"subimage" "icon_whistle"
-		"tooltip" "#MMenu_RequestCoach"
+		"subimage" ""
 	}
 }

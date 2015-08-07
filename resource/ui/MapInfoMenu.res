@@ -28,7 +28,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"ScoreboardBG2"
+		"fillcolor"		"TextBG"
 	}
 	
 	"MapInfoTitle"
@@ -107,12 +107,12 @@
 		"scaleImage"	"1"	
 	}
 
-	"MapInfoContinue" [$WIN32]
+	"MapInfoContinue"
 	{
-		"ControlName"	"CExButton"
+		"ControlName"	"CTFButton"
 		"fieldName"		"MapInfoContinue"
-		"xpos"			"c-50"
-		"ypos"			"c94"
+		"xpos"			"999999"
+		"ypos"			"999999"
 		"zpos"			"6"
 		"wide"			"100"
 		"tall"			"16"
@@ -133,6 +133,34 @@
 		"defaultFgColor_override" "Text"
 		"armedFgColor_override" "125 225 30 255"
 		"depressedFgColor_override" "125 225 30 255"
+		"selectedFgColor_override" "Text"
+	}
+	
+	"EnterButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"EnterButton"
+		"xpos"			"c-50"		
+		"ypos"			"c94"		
+		"zpos"			"6"
+		"wide"			"100"
+		"tall"			"16"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"CONTINUE (&E)"
+		"textAlignment"	"west"
+		"Command"		"continue"
+		"border_default"	""
+		"border_armed"		""
+		"paintbackground"	"0"
+		"font"			"AvenirMedium16"
+		"fgcolor"			"Text"
+		"defaultFgColor_override" "Text"
+		"armedFgColor_override" "ButtonPress"
+		"depressedFgColor_override" "ButtonPress"
 		"selectedFgColor_override" "Text"
 	}
 	
@@ -159,9 +187,10 @@
 		"paintbackground"	"0"
 		
 		"fgcolor"			"Text"
+
 		"defaultFgColor_override" "Text"
-		"armedFgColor_override" "125 225 30 255"
-		"depressedFgColor_override" "125 225 30 255"
+		"armedFgColor_override" "ButtonPress"
+		"depressedFgColor_override" "ButtonPress"	
 		"selectedFgColor_override" "Text"
 	}
 	
@@ -178,7 +207,7 @@
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"#TF_Back"
+		"labelText"		"BACK (&Q)"
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -187,9 +216,10 @@
 		"paintbackground"	"0"
 		
 		"fgcolor"			"Text"
+
 		"defaultFgColor_override" "Text"
-		"armedFgColor_override" "125 225 30 255"
-		"depressedFgColor_override" "125 225 30 255"
+		"armedFgColor_override" "ButtonPress"
+		"depressedFgColor_override" "ButtonPress"	
 		"selectedFgColor_override" "Text"
 	}
 	

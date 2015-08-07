@@ -15,7 +15,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
-		"bgcolor_override"	"GrayBG"
+		"bgcolor_override"	"MainBG"
 		
 		"item_ypos"		"60"
 		"item_ydelta"	"80"
@@ -323,7 +323,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "WhiteS"
+		"fgcolor_override" "Text"
 	}
 	
 	"NextPageButton"

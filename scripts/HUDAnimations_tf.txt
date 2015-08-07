@@ -204,12 +204,12 @@ event KeyHintMessageHide
 //Health Bonus Pulse
 event HudHealthBonusPulse
 {
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.2
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.0 0.2
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.4
 	
 	Animate PlayerStatusHealthValue			FgColor		"HealthBuff"		Accel 0.0 0.0
 	
-	Animate GreenFilter						Alpha		"255"	Linear	0.0 0.2
+	Animate GreenFilter						Alpha		"255"		Linear	0.0 0.2
 	Animate GreenFilter						Alpha		"255"		Linear	0.2 0.4
 
 	RunEvent HudHealthBonusPulseLoop	0.4
@@ -236,8 +236,8 @@ event HudHealthBonusPulseStop
 //Health Dying Pulse
 event HudHealthDyingPulse
 {
-	//Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.075
-	//Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.125 0.075
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.0 0.075
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.125 0.075
 	
 	Animate PlayerStatusHealthValue			FgColor		"HealthLow1"	Linear 0.0 0.075
 	Animate PlayerStatusHealthValue			FgColor		"HealthLow2"	Linear 0.125 0.075
@@ -387,7 +387,7 @@ event HudSpyDisguiseFadeIn
 	//Animate PlayerStatusSpyImage			Alpha		"255"			Linear 0.9 0.1	
 	
 	Animate PlayerStatusClassImage			Alpha		"255"			Linear 0.0 0.0
-	Animate classmodelpanel					Position	"85 r230"		Linear 0.0 0.0
+	Animate classmodelpanel					Position	"100 r180"		Linear 0.0 0.0
 }
 
 event HudSpyDisguiseFadeOut
@@ -396,7 +396,7 @@ event HudSpyDisguiseFadeOut
 	//Animate PlayerStatusSpyImage			Alpha		"0"				Linear 0.9 0.1	
 
 	Animate PlayerStatusClassImage			Alpha		"0"				Linear 0.0 0.0
-	Animate classmodelpanel					Position	"9999 9999"		Linear 0.0 0.0
+	Animate classmodelpanel					Position	"999999 999999"	Linear 0.0 0.0
 }
 
 //===========================================

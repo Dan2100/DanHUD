@@ -34,38 +34,33 @@ Scheme
 		"AmmoLow1"			"255 30 30 255"
 		"AmmoLow2"			"200 30 30 255"
 		
+		"LossNumbers" 		"225 30 30 255"
 		"DamageNumbers"     "227 227 227 255"
 		"HealthNumbers"		"22 182 71 255"
 		
 		"Crosshair"         "0 255 0 255"
-		"CrosshairDamage"   "0 191 255 255"
-		
-		"MeterForeground"	"227 227 227 255"
-		"MeterBackground"   "36 36 36 188"
-		"MeterLabel"		"125 125 125 255"
+		"CrosshairDamage"   "227 227 227 255"		
 		
 		"MedicCharge1"		"125 225 30 255"
 		"MedicCharge2"		"125 225 30 255"
 		
-		"NameBG"        	"36 36 36 188"
-		"ScoreboardBG"		"36 36 36 225"
-		"ScoreboardBG2"		"30 30 30 175"
+		//Meters & buttons
+		"MeterFG"			"227 227 227 255"
+		"MeterBG"   		"36 36 36 188"
+		"MeterLabel"		"125 125 125 255"
+		"ButtonPress"		"72 255 255 255"
 		
-		"GrayBG"			"74 74 74 255"   //Game menu colors
-		"GrayBGDark"		"57 57 57 255"				
-		"GrayBGDarkest"		"27 27 27 255"	
-		"GrayText"			"127 127 127 255"			
-		"FrameGray"			"170 160 154 255"
+		//Main BGs
+		"NameBG"        	"36 36 36 188" 
+		"TextBG"			"36 36 36 225"
+		"TextBG2"			"30 30 30 175"
+
+		//Item Panels
+		"MainBG"			"74 74 74 255"
+		"MainBGDark"		"57 57 57 255"		
+		"MainBGDarkest"		"27 27 27 255"		
+		"MainFrame"			"36 36 36 255"
 		"BlackBorder"		"27 27 27 255"
-		"WhiteS"			"225 225 225 255"
-		
-		"DarkGray"          "57 54 54 255"
-        "Gray"              "154 142 142 255"
-        "BrightGray"        "210 200 200 255"
-		"HudBG"				"0 0 0 0"
-		
-		"Base Color"				"15 255 255 255"
-		"Button Color"				"72 255 255 255"	
 	
 		// base colors
 		"Orange"			"178 82 22 255"
@@ -3354,7 +3349,7 @@ Scheme
 			"backgroundtype"		"2"
 			
 			"image"					"backpack_rect_mouseover_color"
-			"color"					"GrayBGDarkest"
+			"color"					"MainBGDarkest"
 			
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
@@ -3380,7 +3375,7 @@ Scheme
 			"backgroundtype"		"2"
 			
 			"image"					"backpack_rect_mouseover_color"
-			"color"					"GrayBGDarkest"
+			"color"					"MainBGDarkest"
 			
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
@@ -3404,7 +3399,7 @@ Scheme
             "backgroundtype"        "2"
             
             "image"                    "backpack_rect_mouseover_color"
-            "color"                    "GrayBGDark"
+            "color"                    "MainBGDark"
             "src_corner_height"        "24"                // pixels inside the image
             "src_corner_width"        "24"
             "draw_corner_width"        "0"                // screen size of the corners ( and sides ), proportional
@@ -3416,7 +3411,7 @@ Scheme
             "backgroundtype"        "2"
             
             "image"                    "backpack_rect_mouseover_color"
-            "color"                    "GrayBGDarkest"
+            "color"                    "MainBGDarkest"
             "src_corner_height"        "32"                // pixels inside the image
             "src_corner_width"        "32"
             "draw_corner_width"        "0"                // screen size of the corners ( and sides ), proportional
@@ -3455,7 +3450,7 @@ Scheme
             "backgroundtype"        "2"
             //"color"                    "White"
             "image"                    "backpack_rect_mouseover_color"
-            "color"                    "GrayBGDark"
+            "color"                    "MainBGDark"
             "src_corner_height"        "24"                // pixels inside the image
             "src_corner_width"        "24"
             "draw_corner_width"        "0"                // screen size of the corners ( and sides ), proportional

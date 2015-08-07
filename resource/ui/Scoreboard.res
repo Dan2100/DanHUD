@@ -88,7 +88,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"ScoreboardBG"
+		"fillcolor"		"TextBG"
 	}
 	"BlueTeamLabel"
 	{
@@ -168,7 +168,7 @@
 		"fgcolor"		"Text"
 		"labelText"		"%blueteamplayercount%"
 		"textAlignment"		"north-west"
-		"xpos"			"110"
+		"xpos"			"112"
 		"ypos"			"120"
 		"wide"			"170"
 		"tall"			"14"
@@ -260,7 +260,7 @@
 		"fgcolor"		"Text"
 		"labelText"		"%redteamplayercount%"
 		"textAlignment"		"north-east"
-		"xpos"			"480"
+		"xpos"			"478"
 		"ypos"			"120"
 		"wide"			"170"
 		"tall"			"14"
@@ -430,7 +430,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"ScoreboardBG2"
+		"fillcolor"		"TextBG2"
 	}
 	"ClassImage"
 	{

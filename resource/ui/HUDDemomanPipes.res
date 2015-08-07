@@ -26,7 +26,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ChargeLabel"
 		"xpos"					"25"
-		"ypos"					"37"
+		"ypos"					"12"
 		"zpos"					"2"
 		"wide"					"150"
 		"tall"					"6"
@@ -49,7 +49,7 @@
 		"fieldName"				"ChargeMeter"
 		"font"					"Default"
 		"xpos"					"25"
-		"ypos"					"37"
+		"ypos"					"12"
 		"zpos"					"2"
 		"wide"					"150"
 		"tall"					"6"				
@@ -60,8 +60,8 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"bgcolor_override"		"MeterBackground"
-		"fgcolor_override"		"MeterForeground"
+		"bgcolor_override"		"MeterBG"
+		"fgcolor_override"		"MeterFG"
 	}				
 		
 	"PipesPresentPanel"
@@ -72,7 +72,7 @@
 		"ypos"			"2"
 		"zpos"			"1"
 		"wide"			"150"
-		"tall"			"26"
+		"tall"			"24"
 		"visible"		"1"
 		
 		"PipeIcon"

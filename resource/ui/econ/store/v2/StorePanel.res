@@ -15,17 +15,17 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"1"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"				"GrayBG"
-		"infocus_bgcolor_override"		"GrayBG"
-		"outoffocus_bgcolor_override"	"GrayBG"
+		"bgcolor_override"				"MainBG"
+		"infocus_bgcolor_override"		"MainBG"
+		"outoffocus_bgcolor_override"	"MainBG"
 		
 		"title"			"#StoreTitle"
 		"title_font"	"HudFontMediumBold"
 		"titletextinsetX"	"40"
 		"titletextinsetY"	"0"
-		"titlebarfgcolor_override"				"WhiteS"
-		"titlebardisabledfgcolor_override"		"WhiteS"
-		"titlebarbgcolor_override"				"GrayBG"
+		"titlebarfgcolor_override"				"Text"
+		"titlebardisabledfgcolor_override"		"Text"
+		"titlebarbgcolor_override"				"MainBG"
 		
 		"clientinsetx_override"			"0"
 		"sheetinset_bottom"				"40"
@@ -60,7 +60,7 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"2"
 		"border"				"NoBorder"
-		"bgcolor_override"		"FrameGray"
+		"bgcolor_override"		"MainFrame"
 	}
 	"BackgroundFooter"
 	{
@@ -91,7 +91,7 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"2"
 		"border"				"NoBorder"
-		"bgcolor_override"		"FrameGray"
+		"bgcolor_override"		"MainFrame"
 	}				
 	"FooterLine"
 	{
@@ -143,8 +143,8 @@
 		{
 			"textinsetx"		"40"
 			"font"				"HudFontMediumBold"
-			"selectedcolor"		"WhiteS"
-			"unselectedcolor"	"GrayText"	
+			"selectedcolor"		"Text"
+			"unselectedcolor"	"127 127 127 255"	
 			"defaultBgColor_override"	"BlackBorder"
 			"paintbackground"	"1"
 			"activeborder_override"	"NoBorder"

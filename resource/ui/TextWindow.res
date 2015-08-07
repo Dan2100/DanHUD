@@ -29,7 +29,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"ScoreboardBG2"
+		"fillcolor"		"TextBG"
 	}
 	
 	"TFMessageTitle"
@@ -111,7 +111,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"labelText"		"#TF_Continue"
+		"labelText"		"CONTINUE (&E)"
 		"textAlignment"		"center"
 		"dulltext"		"0"
 		"brighttext"		"0"
@@ -122,9 +122,10 @@
 		"paintbackground"	"0"
 		
 		"fgcolor"			"Text"
+
 		"defaultFgColor_override" "Text"
-		"armedFgColor_override" "125 225 30 255"
-		"depressedFgColor_override" "125 225 30 255"
+		"armedFgColor_override" "ButtonPress"
+		"depressedFgColor_override" "ButtonPress"	
 		"selectedFgColor_override" "Text"
 	}
 	
