@@ -3,7 +3,7 @@ Personal TF2 HUD
 
 Minimalistic, ideal for competitive play.
 
-                                                                                                                            `
+ `
 
 ToDo:
 
@@ -15,7 +15,7 @@ Reorganize clientscheme
 
 Add easy ways to change things
 
-                                                                                                                           `
+`
 
 Credits:
 
