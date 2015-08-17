@@ -250,8 +250,8 @@
 		"fieldName" "DisguiseStatus"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"10"
-		"ypos"		"r40"
+		"xpos"		"0"
+		"ypos"		"r32"
 		"wide"		"160"
 		"tall"		"32"
 	}
@@ -802,7 +802,6 @@
 		"separator_width"		"5"	// distance between the icons (including their backgrounds)
 		"separator_height"		"5"
 		"height_offset"			"0"	[$WIN32] // distance from the bottom of the panel
-		"height_offset"			"26"	[$X360]
 	}
 
 	HudCapturePanel
@@ -1154,7 +1153,8 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"0"
-		"ypos"					"r320"
+		"ypos"					"r340"
+		"zpos"					"5"
 		"wide"					"f0"
 		"tall"					"320"
 	}

@@ -44,11 +44,15 @@ Scheme
 		"MedicCharge1"		"125 225 30 255"
 		"MedicCharge2"		"125 225 30 255"
 		
-		//Meters & buttons
+		//Meters
 		"MeterFG"			"227 227 227 255"
 		"MeterBG"   		"36 36 36 188"
 		"MeterLabel"		"125 125 125 255"
-		"ButtonPress"		"72 255 255 255"
+		
+		//Buttons
+		"ButtonBG"              "55 55 55 255"
+		"ButtonArmed"		    "18 127 220 255"
+		"ButtonSelect"	        "27 27 27 255"
 		
 		//Main BGs
 		"NameBG"        	"36 36 36 188" 
@@ -60,20 +64,18 @@ Scheme
 		"MainBGDark"		"57 57 57 255"		
 		"MainBGDarkest"		"27 27 27 255"		
 		"MainFrame"			"36 36 36 255"
-		"BlackBorder"		"27 27 27 255"
-	
-		// base colors
-		"Orange"			"178 82 22 255"
-		"OrangeDim"			"178 82 22 120"
-		"LightOrange"		"188 112 0 128"
+		"GrayText"          "127 127 127 255"
+		"BlackBorder"          "27 27 27 255"
+		
+		//TF2
 		"GoalOrange"		"255 133 0"
 		"TFOrange"			"145 73 59 255"
 
 		"QuestGold"			"208 147 75 255"
 		
-		"White"				"235 235 235 255"
+		"White"				"227 227 227 255"
 		"Red"				"192 28 0 140"
-		"RedSolid"			"192 28 0 255"
+		"RedSolid"			"254 27 4 255"
 		"Blue"				"0 28 162 140"
 		"Yellow"			"251 235 202 255"
 		"TransparentYellow"	"251 235 202 140"
@@ -84,7 +86,7 @@ Scheme
 		"Black"				"46 43 42 255"
 		"TransparentBlack"	"0 0 0 196"
 		"TransparentLightBlack"	"0 0 0 90"
-		"FooterBGBlack"		"52 48 55 255"
+		"FooterBGBlack"		"42 42 42 255"
 		
 		"HUDBlueTeam"		"104 124 155 127"
 		"HUDRedTeam"		"180 92 77 127"
@@ -92,8 +94,8 @@ Scheme
 		"HUDBlueTeamSolid"	"104 124 155 255"
 		"HUDRedTeamSolid"	"180 92 77 255"
 		"HUDDeathWarning"	"255 0 0 255"
-		"HudWhite"			"255 255 255 255"
-		"HudOffWhite"		"200 187 161 255"
+		"HudWhite"			"225 225 225 255"
+		"HudOffWhite"		"225 225 225 255"
 		"HudBlack"			"65 65 65 255"
 		"ProgressBarBlue"	"91 122 142 255"
 		
@@ -120,38 +122,38 @@ Scheme
 		"HudTimerProgressWarning"	"240 30 30 255"
 
 		// training
-		"HudTrainingHint"			"212 160 23 255"
+		"HudTrainingHint"			"212 212 212 255"
 		
-		"TanDark"				"117 107 94 255"
-		"TanLight"				"235 226 202 255"
-		"TanDarker"				"46 43 42 255"
+		"TanDark"				"110 110 110 255"
+		"TanLight"				"221 221 221 255"
+		"TanDarker"				"42 42 42 255"
 		
-		"StoreDarkTan"			"131 121 104 255"
+		"StoreDarkTan"			"121 121 121 255"
 		"StoreGreen"			"76 107 34 255"
 		
 		// Building HUD Specific
 		"LowHealthRed"		"255 0 0 255"
-		"ProgressOffWhite"	"251 235 202 255"
+		"ProgressOffWhite"	"227 227 227 255"
 		"ProgressBackground"	"250 234 201 51"
-		"HealthBgGrey"		"72 71 69 255"
+		"HealthBgGrey"		"42 42 42 255"
 		
-		"ProgressOffWhiteTransparent"	"251 235 202 128"
+		"ProgressOffWhiteTransparent"	"242 242 242 128"
 		
 		"LabelDark"			"48 43 42 255"
 		"LabelTransparent"	"109 96 80 180"
-		
+	
 		"BuildMenuActive"	"248 231 198 255"
 		
 		"DisguiseMenuIconRed"	"192 56 63 255"
 		"DisguiseMenuIconBlue"	"92 128 166 255"
 
- 		"MatchmakingDialogTitleColor"			"200 184 151 255"
- 		"MatchmakingMenuItemBackground"			"46 43 42 255"
- 		"MatchmakingMenuItemBackgroundActive"	"150 71 0 255"	
-		"MatchmakingMenuItemTitleColor"			"200 184 151 255"
-		"MatchmakingMenuItemDescriptionColor"	"200 184 151 255"
+		"MatchmakingDialogTitleColor"			"225 225 225 255"
+ 		"MatchmakingMenuItemBackground"			"42 42 42 255"
+ 		"MatchmakingMenuItemBackgroundActive"	"57 57 57 255"	
+		"MatchmakingMenuItemTitleColor"			"225 225 225 255"
+		"MatchmakingMenuItemDescriptionColor"	"225 225 225 255"
 		
-		"HTMLBackground"						"95 92 101 255"
+		"HTMLBackground"						"100 100 100 255"
 		
 		"ItemAttribLevel"						"117 107 94 255"
 		"ItemAttribNeutral"						"235 226 202 255"
@@ -170,7 +172,7 @@ Scheme
 		"QualityColorNormal"					"178 178 178 255"
 		"QualityColorrarity1"					"77 116 85 255"
 		"QualityColorrarity2"					"141 131 75 255"
-		"QualityColorrarity3"					"204 204 250 255"
+		"QualityColorrarity3"					"112 85 15 255"
 		"QualityColorrarity4"					"134 80 172 255"
 		"QualityColorVintage"					"71 98 145 255"
 		"QualityColorUnique"					"255 215 0 255"
@@ -242,66 +244,63 @@ Scheme
 	BaseSettings
 	{
 		// vgui_controls color specifications
-		ReplayBrowser.BgColor								"DarkBrown"
+		ReplayBrowser.BgColor								"MainBGDark"
 		ReplayBrowser.Details.TitleEdit.Carat.FgColor		"LightRed"
-		ReplayBrowser.Button.ArmedBgColor					"TFOrange"
-		ReplayBrowser.Button.DepressedBgColor				"TFOrange"
-		ReplayBrowser.CollectionTitle.FgColor				"LightRed"
+		ReplayBrowser.Button.ArmedBgColor					"ButtonArmed"
+		ReplayBrowser.Button.DepressedBgColor				"ButtonBG"
+		ReplayBrowser.CollectionTitle.FgColor				"GrayText"
 		ReplayBrowser.Warning.FgColor						"White"
 		ReplayBrowser.ScrollBar.SliderButton.FgColor		"TransparentYellow"
 		ReplayBrowser.Search.BgColor						"TanDark"
 		ReplayBrowser.Search.FgColor						"White"
 		
-		Replay.RenderDialog.BgColor							"LighterDarkBrown"
+		Replay.RenderDialog.BgColor							"MainBG"
 		
 		Econ.Dialog.BgColor									"Blank"
-		Econ.Button.BgColor									"TanDark"
-		Econ.Button.FgColor									"TanLight"
-		Econ.Button.ArmedBgColor							"TFOrange"
-		Econ.Button.ArmedFgColor							"TanLight"
-		Econ.Button.DepressedBgColor						"TFOrange"
-		Econ.Button.DepressedFgColor						"Black"
+		Econ.Button.BgColor									"ButtonBG"
+		Econ.Button.FgColor									"White"
+		Econ.Button.ArmedBgColor							"ButtonArmed"
+		Econ.Button.ArmedFgColor							"White"
+		Econ.Button.DepressedBgColor						"ButtonBG"
+		Econ.Button.DepressedFgColor						"White"
 		
-		Econ.Button.PresetDefaultColorFg					"TanLight"
-		Econ.Button.PresetArmedColorFg						"TanLight"
-		Econ.Button.PresetDepressedColorFg					"TanLight"
+		Econ.Button.PresetDefaultColorFg					"White"
+		Econ.Button.PresetArmedColorFg						"White"
+		Econ.Button.PresetDepressedColorFg					"White"
 		
-		Econ.Button.PresetDefaultColorBg					"LighterRed"
-		Econ.Button.PresetArmedColorBg						"LightRed"
-		Econ.Button.PresetDepressedColorBg					"TFOrange"
+		Econ.Button.PresetDefaultColorBg					"ButtonArmed"
+		Econ.Button.PresetArmedColorBg						"ButtonArmed"
+		Econ.Button.PresetDepressedColorBg					"ButtonBG"
 		
 		Border.Bright					"Blank"		// the lit side of a control
 		Border.Dark						"Black"		// the dark/unlit side of a control
-		Border.Selection				"Gray"			// the additional border color for displaying the default/selected button
-
-		Button.TextColor				"TanLight"
-		Button.BgColor					"TanDark"
-		Button.ArmedTextColor			"TanLight"
-		Button.ArmedBgColor				"TFOrange"
-		Button.SelectedTextColor		"TanLight"
-		Button.SelectedBgColor			"TFOrange"
-		Button.DepressedTextColor		"Black"
-		Button.DepressedBgColor			"TFOrange"
-
-		CheckButton.TextColor			"Yellow"
-		CheckButton.SelectedTextColor	"Yellow"
-		CheckButton.BgColor				"TransparentBlack"
-		CheckButton.Border1  			"Yellow" 		// the left checkbutton border
-		CheckButton.Border2  			"Yellow"		// the right checkbutton border
-		CheckButton.Check				"Yellow"		// color of the check itself
-		CheckButton.HighlightFgColor	"Yellow"
+		Border.Selection				"ButtonBG"			// the additional border color for displaying the default/selected button
 		
-		ComboBoxButton.ArrowColor		"TanLight"
-		ComboBoxButton.ArmedArrowColor	"TanLight"
+		Button.TextColor				"White"
+		Button.BgColor					"ButtonBG"
+		Button.ArmedTextColor			"White"
+		Button.ArmedBgColor				"ButtonArmed"
+		Button.SelectedTextColor		"White"
+		Button.SelectedBgColor			"ButtonArmed"
+		Button.DepressedTextColor		"White"
+		Button.DepressedBgColor			"ButtonArmed"
+		CheckButton.TextColor			"White"
+		CheckButton.SelectedTextColor	"White"
+		CheckButton.BgColor				"TransparentBlack"
+		CheckButton.Border1  			"White" 		// the left checkbutton border
+		CheckButton.Border2  			"White"		// the right checkbutton border
+		CheckButton.Check				"White"		// color of the check itself
+		CheckButton.HighlightFgColor	"White"
+		
+		ComboBoxButton.ArrowColor		"White"
+		ComboBoxButton.ArmedArrowColor	"White"
 		ComboBoxButton.BgColor			"Blank"
 		ComboBoxButton.DisabledBgColor	"Blank"
 
 		Frame.BgColor					"TransparentBlack"
 		Frame.OutOfFocusBgColor			"TransparentBlack"
-		Frame.FocusTransitionEffectTime	"0.0"	[$WIN32] // time it takes for a window to fade in/out on focus/out of focus
-		Frame.TransitionEffectTime		"0.0"	[$WIN32] // time it takes for a window to fade in/out on open/close
-		Frame.FocusTransitionEffectTime	"0.15"	[$X360] // time it takes for a window to fade in/out on focus/out of focus
-		Frame.TransitionEffectTime		"0.15"	[$X360] // time it takes for a window to fade in/out on open/close
+		Frame.FocusTransitionEffectTime	"0.0"	// time it takes for a window to fade in/out on focus/out of focus
+		Frame.TransitionEffectTime		"0.0"	// time it takes for a window to fade in/out on open/close
 		Frame.AutoSnapRange				"0"
 		FrameGrip.Color1				"Blank"
 		FrameGrip.Color2				"Blank"
@@ -313,28 +312,28 @@ Scheme
 		FrameSystemButton.BgColor		"Blank"
 		FrameSystemButton.Icon			""
 		FrameSystemButton.DisabledIcon	""
-		FrameTitleBar.TextColor			"Orange"
+		FrameTitleBar.TextColor			"Text"
 		FrameTitleBar.BgColor			"Blank"
-		FrameTitleBar.DisabledTextColor	"Orange"
+		FrameTitleBar.DisabledTextColor	"GrayText"
 		FrameTitleBar.DisabledBgColor	"Blank"
 
-		GraphPanel.FgColor				"Orange"
+		GraphPanel.FgColor				"Text"
 		GraphPanel.BgColor				"TransparentBlack"
 
-		Label.TextDullColor				"TanDark"
-		Label.TextColor					"TanLight"
-		Label.TextBrightColor			"TanLight"
+		Label.TextDullColor				"GrayText"
+		Label.TextColor					"Text"
+		Label.TextBrightColor			"Text"
 		Label.SelectedTextColor			"White"
 		Label.BgColor					"Blank"
 		Label.DisabledFgColor1			"Blank"
 		Label.DisabledFgColor2			"Black"
 
-		ListPanel.TextColor					"Orange"
+		ListPanel.TextColor					"Text"
 		ListPanel.BgColor					"TransparentBlack"
 		ListPanel.SelectedTextColor			"Black"
 		ListPanel.SelectedBgColor			"Red"
 		ListPanel.SelectedOutOfFocusBgColor	"Red"
-		ListPanel.EmptyListInfoTextColor	"Orange"
+		ListPanel.EmptyListInfoTextColor	"Text"
 
 		Menu.TextColor					"TanLight"
 		Menu.BgColor					"TransparentBlack"
@@ -342,7 +341,7 @@ Scheme
 		Menu.ArmedBgColor				"TanLight"
 		Menu.TextInset					"6"
 
-		Chat.TypingText					"Orange"
+		Chat.TypingText					"Select"
 
 		Panel.FgColor					"Gray"
 		Panel.BgColor					"Blank"
@@ -359,12 +358,12 @@ Scheme
 		"BuildingHealthBar.Health"		"ProgressOffWhite"
 		"BuildingHealthBar.LowHealth"	"LowHealthRed"
 
-		PropertySheet.TextColor			"Orange"
-		PropertySheet.SelectedTextColor	"Orange"
+		PropertySheet.TextColor			"Text"
+		PropertySheet.SelectedTextColor	"Text"
 		PropertySheet.TransitionEffectTime	"0.25"	// time to change from one tab to another
 
-		RadioButton.TextColor			"Orange"
-		RadioButton.SelectedTextColor	"Orange"
+		RadioButton.TextColor			"Text"
+		RadioButton.SelectedTextColor	"Text"
 
 		RichText.TextColor				"Gray"
 		RichText.BgColor				"Blank"
@@ -381,11 +380,11 @@ Scheme
 		ScrollBarSlider.FgColor				"Gray"		// nob color
 		ScrollBarSlider.BgColor				"Blank"		// slider background color
 
-		SectionedListPanel.HeaderTextColor	"Orange"
+		SectionedListPanel.HeaderTextColor	"Text"
 		SectionedListPanel.HeaderBgColor	"Blank"
 		SectionedListPanel.DividerColor		"Black"
-		SectionedListPanel.TextColor		"Orange"
-		SectionedListPanel.BrightTextColor	"Orange"
+		SectionedListPanel.TextColor		"Text"
+		SectionedListPanel.BrightTextColor	"Text"
 		SectionedListPanel.BgColor			"TransparentLightBlack"
 		SectionedListPanel.SelectedTextColor			"Black"
 		SectionedListPanel.SelectedBgColor				"Red"
@@ -408,7 +407,7 @@ Scheme
 		TextEntry.OutOfFocusSelectedBgColor	"Blank"
 		TextEntry.FocusEdgeColor	"Blank"
 
-		ToggleButton.SelectedTextColor	"Orange"
+		ToggleButton.SelectedTextColor	"Text"
 
 		Tooltip.TextColor			"TransparentBlack"
 		Tooltip.BgColor				"Red"
@@ -434,7 +433,7 @@ Scheme
 		HudCaptureProgressBar.InActive	"HudProgressBarInActive"
 
 		// scheme-specific colors
-		"FgColor"		"Orange"
+		"FgColor"		"Text"
 		"BgColor"		"TransparentBlack"
 
 		"ViewportBG"		"Blank"
@@ -1798,9 +1797,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"7"
-				"weight"	"400"
+				"name"		"AvenirLTStd-Medium"
+				"tall"		"8"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1872,7 +1870,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"AvenirLTStd-Medium"
 				"tall"		"8"
 				"antialias" "1"
 				"weight"	"500"
@@ -1936,9 +1934,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"7"
-				"weight"	"0"
+				"name"		"AvenirLTStd-Medium"
+				"tall"		"8"
 				"additive"	"1"
 				"antialias" 	"1"
 			}
@@ -1947,9 +1944,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"7"
-				"weight"	"0"
+				"name"		"AvenirLTStd-Medium"
+				"tall"		"8"
 				"antialias" 	"1"
 			}
 		}
@@ -1957,11 +1953,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"7"
+				"name"		"AvenirLTStd-Medium"
+				"tall"		"8"
 				"weight"	"0"
 				"blur"		"3"
-				"additive"	"1"
 				"antialias" 	"1"
 				"custom"	"1"
 			}
@@ -1970,8 +1965,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"7"
+				"name"		"AvenirLTStd-Medium"
+				"tall"		"8"
 				"weight"	"0"
 				"antialias" 	"1"
 			}
@@ -1980,27 +1975,24 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"ocra"
+				"name"		"AvenirLTStd-Medium"
 				"tall"		"10"
-				"weight"	"400"
 				"yres"		"480 599"
 				"additive"	"0"
 				"antialias"	"1"
 			}
 			"2"
 			{
-				"name"		"ocra"
+				"name"		"AvenirLTStd-Medium"
 				"tall"		"14"
-				"weight"	"400"
 				"additive"	"0"
 				"yres"		"600 1023"
 				"antialias"	"1"
 			}
 			"3"
 			{
-				"name"		"ocra"
+				"name"		"AvenirLTStd-Medium"
 				"tall"		"18"
-				"weight"	"400"
 				"additive"	"0"
 				"yres"		"1024 6000"
 				"antialias"	"1"
@@ -2011,27 +2003,24 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"ocra"
+				"name"		"AvenirLTStd-Medium"
 				"tall"		"10"
-				"weight"	"800"
 				"yres"		"480 599"
 				"additive"	"0"
 				"antialias"	"1"
 			}
 			"2"
 			{
-				"name"		"ocra"
+				"name"		"AvenirLTStd-Medium"
 				"tall"		"14"
-				"weight"	"800"
 				"additive"	"0"
 				"yres"		"600 1023"
 				"antialias"	"1"
 			}
 			"3"
 			{
-				"name"		"ocra"
+				"name"		"AvenirLTStd-Medium"
 				"tall"		"18"
-				"weight"	"800"
 				"additive"	"0"
 				"yres"		"1024 6000"
 				"antialias"	"1"
@@ -2042,9 +2031,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"ocra"
+				"name"		"AvenirLTStd-Medium"
 				"tall"		"16"
-				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -2054,10 +2042,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Professor"
+				"name"		"AvenirLTStd-Medium"
 				"tall"		"20"
 				"antialias" "1"
-				"custom"		"1" [$OSX]
 				"weight"	"500"
 			}
 		}
@@ -2066,9 +2053,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"AvenirLTStd-Medium"
 				"tall"		"10"
-				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -2078,9 +2064,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"AvenirLTStd-Medium"
 				"tall"		"8"
-				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -2089,7 +2074,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"AvenirLTStd-Medium"
 				"tall"		"8"
 				"weight"	"0"
 				"antialias" 	"1"
@@ -3379,8 +3364,8 @@ Scheme
 			
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
-			"draw_corner_width"		"2"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"2"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		Econ.Button.Border.Default
 		{
@@ -3474,7 +3459,7 @@ Scheme
             "backgroundtype"        "2"
             
             "image"                    "backpack_rect_mouseover_color"
-            "color"                    "FlavorBackpack"
+            "color"                    "ButtonArmed"
             "src_corner_height"        "24"                // pixels inside the image
             "src_corner_width"        "24"
             "draw_corner_width"        "0"                // screen size of the corners ( and sides ), proportional

@@ -57,7 +57,7 @@
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"fillcolor"				"DarkGray"
+		"fillcolor"				"36 36 36 255"
 		"PaintBackgroundType"	"0"
 	}
 	

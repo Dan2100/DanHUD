@@ -1,13 +1,13 @@
-"Resource/UI/ControlPointCountdown.res"
+"Resource/UI/HudArenaCapPointCountdown.res"
 {
 	"CapCountdownLabel"
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"CapCountdownLabel"
-		"font"			"AvenirMedium20"
+		"font"			"MediumNumbers20"
 		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1"
+		"ypos"			"2"
+		"zpos"			"-1"
 		"wide"			"30"
 		"tall"			"30"
 		"autoResize"		"0"

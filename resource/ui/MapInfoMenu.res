@@ -151,7 +151,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"CONTINUE (&E)"
-		"textAlignment"	"west"
+		"textAlignment"	"center"
 		"Command"		"continue"
 		"border_default"	""
 		"border_armed"		""
@@ -159,17 +159,17 @@
 		"font"			"AvenirMedium16"
 		"fgcolor"			"Text"
 		"defaultFgColor_override" "Text"
-		"armedFgColor_override" "ButtonPress"
-		"depressedFgColor_override" "ButtonPress"
+		"armedFgColor_override" "ButtonArmed"
+		"depressedFgColor_override" "ButtonArmed"
 		"selectedFgColor_override" "Text"
 	}
 	
 	"MapInfoWatchIntro" [$WIN32]
 	{
-		"ControlName"	"CExButton"
+		"ControlName"	"CTFButton"
 		"fieldName"		"MapInfoWatchIntro"
-		"xpos"			"c70"
-		"ypos"			"c94"
+		"xpos"			"999999"
+		"ypos"			"999999"
 		"zpos"			"6"
 		"wide"			"100"
 		"tall"			"16"
@@ -189,15 +189,44 @@
 		"fgcolor"			"Text"
 
 		"defaultFgColor_override" "Text"
-		"armedFgColor_override" "ButtonPress"
-		"depressedFgColor_override" "ButtonPress"	
+		"armedFgColor_override" "ButtonArmed"
+		"depressedFgColor_override" "ButtonArmed"	
 		"selectedFgColor_override" "Text"
 	}
 	
 	"MapInfoBack" [$WIN32]
 	{
-		"ControlName"	"CExButton"
+		"ControlName"	"CTFButton"
 		"fieldName"		"MapInfoBack"
+		"xpos"			"999999"
+		"ypos"			"999999"
+		"zpos"			"6"
+		"wide"			"60"
+		"tall"			"16"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"BACK"
+		"textAlignment"	"west"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"command"		"back"
+		"font"			"AvenirMedium12"
+		"paintbackground"	"0"
+		
+		"fgcolor"			"Text"
+
+		"defaultFgColor_override" "Text"
+		"armedFgColor_override" "ButtonArmed"
+		"depressedFgColor_override" "ButtonArmed"	
+		"selectedFgColor_override" "Text"
+	}
+	
+	"BackButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"BackButton"
 		"xpos"			"c-170"
 		"ypos"			"c94"
 		"zpos"			"6"
@@ -218,8 +247,8 @@
 		"fgcolor"			"Text"
 
 		"defaultFgColor_override" "Text"
-		"armedFgColor_override" "ButtonPress"
-		"depressedFgColor_override" "ButtonPress"	
+		"armedFgColor_override" "ButtonArmed"
+		"depressedFgColor_override" "ButtonArmed"	
 		"selectedFgColor_override" "Text"
 	}
 	

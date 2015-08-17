@@ -101,7 +101,7 @@
 	{
 		"ControlName"		"CExButton"
 		"fieldName"		"ok"
-		"xpos"			"c-50"
+		"xpos"			"c-49"
 		"ypos"			"c94"
 		"zpos"			"6"
 		"wide"			"100"
@@ -122,10 +122,9 @@
 		"paintbackground"	"0"
 		
 		"fgcolor"			"Text"
-
 		"defaultFgColor_override" "Text"
-		"armedFgColor_override" "ButtonPress"
-		"depressedFgColor_override" "ButtonPress"	
+		"armedFgColor_override" "ButtonArmed"
+		"depressedFgColor_override" "ButtonArmed"	
 		"selectedFgColor_override" "Text"
 	}
 	
