@@ -78,7 +78,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"OvertimeLabel"
 		"xpos"			"25"
-		"ypos"			"20"
+		"ypos"			"40"
 		"zpos"			"5"
 		"wide"			"100"
 		"tall"			"12"

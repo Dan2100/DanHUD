@@ -50,9 +50,9 @@ Scheme
 		"MeterLabel"		"125 125 125 255"
 		
 		//Buttons
-		"ButtonBG"              "55 55 55 255"
-		"ButtonArmed"		    "18 127 220 255"
-		"ButtonSelect"	        "27 27 27 255"
+		"ButtonBG"          "55 55 55 255"
+		"ButtonArmed"		"18 127 220 255"
+		"ButtonSelect"	    "27 27 27 255"
 		
 		//Main BGs
 		"NameBG"        	"36 36 36 188" 
@@ -65,7 +65,7 @@ Scheme
 		"MainBGDarkest"		"27 27 27 255"		
 		"MainFrame"			"36 36 36 255"
 		"GrayText"          "127 127 127 255"
-		"BlackBorder"          "27 27 27 255"
+		"BlackBorder"       "27 27 27 255"
 		
 		//TF2
 		"GoalOrange"		"255 133 0"
