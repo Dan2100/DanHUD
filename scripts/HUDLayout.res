@@ -1,6 +1,5 @@
 "Resource/HudLayout.res"
 {
-
 	"Crosshair"
 	{
         "controlname"	"CExLabel"
