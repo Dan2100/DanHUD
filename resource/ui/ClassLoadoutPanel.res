@@ -294,7 +294,7 @@
 		"xpos"			"c-70"
 		"ypos"			"270"
 		"zpos"			"100"
-		"wide"			"200"
+		"wide"			"300"
 		"tall"			"300"
 		"visible"		"0"
 		"bgcolor_override"		"0 0 0 0"
@@ -302,7 +302,7 @@
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
 		
-		"text_ypos"			"0"
+		"text_ypos"			"15"
 		"text_center"		"1"
 		"model_hide"		"1"
 		"resize_to_text"	"1"
